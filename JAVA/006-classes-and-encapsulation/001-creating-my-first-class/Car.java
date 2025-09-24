@@ -1,82 +1,73 @@
-import java.util.UUID;
-
 /**
- * =================================
- * CORE OOP CONCEPTS
- * =================================
+ * =======================================================================================
+ * CONCEPT: ENCAPSULATION (Explained by Gemini)
+ * =======================================================================================
  *
- * 1. ENCAPSULATION
- * ----------------
- * ANALOGY: A car's dashboard. I use the pedals and steering wheel (public methods)
- * without needing to know about the complex engine (private data). This protects
- * the internal data and keeps things simple.
+ * ANALOGY: Think of a car.
  *
- * 2. FINAL
- * --------
- * ANALOGY: A car's Vehicle Identification Number (VIN).
- * - CONCEPT: A `final` attribute is a constant that can only be assigned a value
- *   ONCE, typically when the object is created (in the constructor). Once set,
- *   it can never be changed.
- * - USAGE: It's perfect for values that should be immutable, like a unique ID,
- *   a birth date, or a serial number. You usually provide a getter but no setter.
+ * As a driver, you interact with the car through a simple interface: a steering wheel,
+ * pedals, and a gear stick. You don't need to know the complex details of how the
+ * engine, transmission, or electronics work internally.
  *
+ * The car's internal mechanics are "encapsulated" or hidden away. This has two main benefits:
+ * 1. Simplicity: You can drive any car because the interface is standard and easy to use.
+ * 2. Safety/Protection: You can't accidentally mess up the engine's timing or the fuel
+ *    injection system while driving. The car's internal state is protected.
+ *
+ * IN PROGRAMMING: Encapsulation means bundling the data (attributes/fields) and the
+ * methods (behaviors) that operate on that data into a single unit, which is the "class".
+ *
+ * We achieve this by:
+ * 1. Making the data `private`: This is like hiding the engine. It prevents code outside
+ *    the class from directly accessing or modifying the data.
+ * 2. Providing `public` methods (known as "getters" and "setters"): This is your public
+ *    interface (the steering wheel and pedals). These methods provide controlled access
+ *    to the private data. You can add logic inside them, for example, to validate data
+ *    before changing it.
  */
 public class Car {
 
-    // Private fields: The internal data of my Car. Hidden from the outside.
+    // These are the attributes (data) of a Car.
+    // They are marked as `private`, which means they are "encapsulated".
+    // Only the code inside this Car class can access them directly.
     private String make;
     private String model;
     private int year;
-    // A `final` attribute. It can only be set once. Like a car's VIN.
-    private final String vin;
 
-    // A static field. This belongs to the CLASS, not to any single object.
-    private static int carCounter = 0;
-
-    // Constructor: My blueprint for creating a new Car object and setting its
-    // initial state.
+    // This is a "constructor". It's a special method used to create a new Car object.
+    // It initializes the object's state (its attributes).
     public Car(String make, String model, int year) {
         this.make = make;
         this.model = model;
         this.year = year;
-        // Assigning the final 'vin' field. This can only be done here!
-        this.vin = UUID.randomUUID().toString();
-        carCounter++; // Increment the shared counter every time a new car is created.
     }
 
-    // --- PUBLIC INTERFACE (My "Dashboard") ---
+    // --- PUBLIC INTERFACE (Getters and Setters) ---
 
-    // Getters: Let me safely READ the private fields.
+    // This is a "getter" method. It allows outside code to safely READ the `make` attribute.
     public String getMake() {
         return make;
     }
 
+    // This is a "getter" for the model.
     public String getModel() {
         return model;
     }
 
+    // This is a "getter" for the year.
     public int getYear() {
         return year;
     }
 
-    // Getter for the final 'vin' field. Note there is no setter.
-    public String getVin() {
-        return vin;
-    }
-
-    // Setter: Lets me safely MODIFY the 'year'.
-    // I can add validation here, e.g., if (year > 1886) { ... }
+    // This is a "setter" method. It allows outside code to safely MODIFY the `year` attribute.
+    // We could add validation here, e.g., if (year > 1886) { ... }
     public void setYear(int year) {
         this.year = year;
     }
 
-    // A public method that uses the class's internal data to perform an action.
+    // This is a regular public method that describes the car.
+    // It uses the class's own private data.
     public void displayInfo() {
-        System.out.println("Car Info: " + year + " " + make + " " + model + " (VIN: " + vin + ")");
-    }
-
-    // A static method to access the static field.
-    public static int getCarCounter() {
-        return carCounter;
+        System.out.println("Car Info: " + year + " " + make + " " + model);
     }
 }
