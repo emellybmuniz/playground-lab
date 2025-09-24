@@ -18,14 +18,14 @@ This directory contains all my Java-related exercises and projects. The focus is
 
 This roadmap outlines a possible learning path for Java.
 
-- [ ] **Java Fundamentals**
-  - [ ] Basic Syntax and Data Types
-  - [ ] Operators and Control Flow
-  - [ ] Methods and Arrays
-- [ ] **Object-Oriented Programming (OOP)**
-  - [ ] Classes and Objects
-  - [ ] Encapsulation, Inheritance, and Polymorphism
-  - [ ] Interfaces and Abstract Classes
+- [x] **Java Fundamentals**
+  - [x] Basic Syntax and Data Types
+  - [x] Operators and Control Flow
+  - [x] Methods and Arrays
+- [x] **Object-Oriented Programming (OOP)**
+  - [x] Classes and Objects
+  - [x] Encapsulation, Inheritance, and Polymorphism
+  - [x] Interfaces and Abstract Classes
 - [ ] **Advanced Concepts**
   - [ ] Collections Framework (Lists, Sets, Maps)
   - [ ] Generics
