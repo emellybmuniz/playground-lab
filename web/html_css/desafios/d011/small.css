@@ -1,0 +1,21 @@
+.container {
+    flex-flow: column;
+}
+
+.menu-container {
+    padding: 0px;
+    flex-flow: column;
+}
+
+.menu-item {
+    margin: 4px;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+main p {
+    font-size: 16px;
+    width: 100%;
+}

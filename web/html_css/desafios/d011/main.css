@@ -1,0 +1,100 @@
+/** Reset **/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #7695FF;
+    --cor2: #9DBDFF;
+    --cor3: #FFD7C4;
+    --cor4: #FF9874;
+    --font1: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    --font2: Cambria, Georgia, serif;
+    --text-color: #000;
+    --menu-hover-bg: black;
+    --menu-hover-color: white;
+}
+
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--font1);
+    color: var(--text-color);
+}
+
+
+h1, h2 {
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: var(--cor2);
+    text-shadow: 2px 2px 1px rgba(21, 21, 21, 0.89);
+    padding: 10px 0px 0px 10px;
+    font-size: 2.5em;
+}
+
+h2 {
+    padding: 10px 5px 0;
+}
+
+/** container principal **/
+.container {
+    gap: 0 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: var(--cor3);
+}
+
+/** menu **/
+.menu-container {
+    display: flex;
+    padding: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor4);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 4px;
+    transition: 300ms;
+}
+
+.menu-item a {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    background-color: var(--menu-hover-bg);
+}
+
+.menu-item:hover a {
+    color: var(--menu-hover-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0 0 9px 9px;
+}
+
+main p {
+    font-family: var(--font2);
+    width: 80%;
+    font-size: 18px;
+    padding: 10px;
+    justify-self: center;
+}
