@@ -16,16 +16,16 @@ This directory contains my Python exercises, challenges, and projects. It covers
 
 This roadmap outlines a possible learning path for Python.
 
-- [ ] **Python Fundamentals**
-  - [ ] Basic Syntax and Data Types
-  - [ ] Operators and Control Flow
-  - [ ] Functions and Modules
-- [ ] **Data Structures**
-  - [ ] Lists, Tuples, and Dictionaries
-  - [ ] Sets and Strings
-  - [ ] Working with Files
-- [ ] **Object-Oriented Programming (OOP)**
-  - [ ] Classes and Objects
+- [x] **Python Fundamentals**
+  - [x] Basic Syntax and Data Types
+  - [x] Operators and Control Flow
+  - [x] Functions and Modules
+- [x] **Data Structures**
+  - [x] Lists, Tuples, and Dictionaries
+  - [x] Sets and Strings
+  - [x] Working with Files
+- [x] **Object-Oriented Programming (OOP)**
+  - [x] Classes and Objects
   - [ ] Inheritance and Polymorphism
 - [ ] **Advanced Topics**
   - [ ] Decorators and Generators
