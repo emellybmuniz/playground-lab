@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            padding: 20px;
+        }
+        .container {
+            margin-bottom: 20px;
+        }
+        .inline {
+            display: inline;
+            background-color: #ff5722;
+            padding: 10px;
+            margin: 5px;
+            color: #fff;
+        }
+        .block {
+            display: block;
+            background-color: #03a9f4;
+            padding: 10px;
+            margin: 5px 0;
+            color: #fff;
+        }
+        .inline-block {
+            display: inline-block;
+            background-color: #8bc34a;
+            padding: 10px;
+            margin: 5px;
+            color: #fff;
+        }
+        .none {
+            display: none;
+        }
+        .table {
+            display: table;
+            background-color: #ff9800;
+            padding: 10px;
+            margin: 5px 0;
+            color: #fff;
+        }
+        .table-row {
+            display: table-row;
+            background-color: #9c27b0;
+        }
+        .table-cell {
+            display: table-cell;
+            background-color: #3f51b5;
+            padding: 10px;
+            border: 1px solid #fff;
+        }
+        .contents {
+            display: contents;
+            background-color: #e91e63;
+            padding: 10px;
+            color: #fff;
+        }
+        .contents > div {
+            background-color: #607d8b;
+            margin: 5px 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tipos de Display</h1>
+
+    <div class="container">
+        <h2>Display: Inline</h2>
+        <span class="inline">Elemento Inline 1</span>
+        <span class="inline">Elemento Inline 2</span>
+        <span class="inline">Elemento Inline 3</span>
+    </div>
+
+    <div class="container">
+        <h2>Display: Block</h2>
+        <div class="block">Elemento Block 1</div>
+        <div class="block">Elemento Block 2</div>
+        <div class="block">Elemento Block 3</div>
+    </div>
+
+    <div class="container">
+        <h2>Display: Inline-block</h2>
+        <div class="inline-block">Elemento Inline-block 1</div>
+        <div class="inline-block">Elemento Inline-block 2</div>
+        <div class="inline-block">Elemento Inline-block 3</div>
+    </div>
+
+    <div class="container">
+        <h2>Display: None</h2>
+        <div class="none">Este elemento não está visível.</div>
+    </div>
+
+    <div class="container">
+        <h2>Display: Table</h2>
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell">Célula 1</div>
+                <div class="table-cell">Célula 2</div>
+                <div class="table-cell">Célula 3</div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">Célula 4</div>
+                <div class="table-cell">Célula 5</div>
+                <div class="table-cell">Célula 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Display: Contents</h2>
+        <div class="contents">
+            <div>Elemento 1 (Dentro do Contents)</div>
+            <div>Elemento 2 (Dentro do Contents)</div>
+            <div>Elemento 3 (Dentro do Contents)</div>
+        </div>
+    </div>
+</body>
+</html>

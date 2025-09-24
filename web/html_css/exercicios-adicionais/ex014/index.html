@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #0F0A14;
+            color: #E0D6EB;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #D896FF;
+        }
+        ol, ul {
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        ul {
+            list-style-position: inside;
+        }
+        ul.circle {
+            list-style-type: circle;
+        }
+        ul.square {
+            list-style-type: square;
+        }
+        dl {
+            background: #F8F0FF;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+            color: #000;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            margin-left: 20px;
+        }
+        .examples {
+            display: flex;
+            gap: 20px;
+        }
+        .example {
+            background-color: #23232E;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .custom-list {
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <h1>Types of Lists</h1>
+
+    <h2>Ordered Lists</h2>
+    <div class="examples">
+        <div class="example">
+            <h3>Numeric (1, 2, 3...)</h3>
+            <ol type="1" start="2">
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+        </div>
+        <div class="example">
+            <h3>Alphabetic (A, B, C...)</h3>
+            <ol type="A">
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ol>
+        </div>
+    </div>
+
+    <h2>Unordered Lists</h2>
+    <div class="examples">
+        <div class="example">
+            <h3>Default (disc)</h3>
+            <ul>
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Tomate</li>
+            </ul>
+        </div>
+        <div class="example">
+            <h3>Circle</h3>
+            <ul class="circle">
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+        </div>
+        <div class="example">
+            <h3>Square</h3>
+            <ul class="square">
+                <li>Suco</li>
+                <li>Café</li>
+                <li>Açúcar</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Definition Lists</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+
+    <h2>Customizing Lists</h2>
+    <p>Example of a condensed list style:</p>
+    <ul class="custom-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Exemplo de Sublistas</h1>
+    <ul>
+        <li>Categoria 1
+            <ul>
+                <li>Subitem 1.1
+                    <ul>
+                        <li>Sub-subitem 1.1.1</li>
+                        <li>Sub-subitem 1.1.2</li>
+                    </ul>
+                </li>
+                <li>Subitem 1.2</li>
+            </ul>
+        </li>
+        <li>Categoria 2
+            <ul>
+                <li>Subitem 2.1</li>
+                <li>Subitem 2.2
+                    <ul>
+                        <li>Sub-subitem 2.2.1</li>
+                        <li>Sub-subitem 2.2.2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>

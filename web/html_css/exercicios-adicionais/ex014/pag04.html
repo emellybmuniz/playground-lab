@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplos de Position</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 20px;
+      margin: 5px;
+    }
+
+    /* Static */
+    .static-example {
+      background-color: lightblue;
+      padding: 20px;
+      position: static;
+      border: 2px solid blue;
+    }
+
+    /* Relative */
+    .relative-example {
+      background-color: lightgreen;
+      padding: 20px;
+      position: relative;
+      
+      left: 20px;
+      top: 20px;
+      border: 2px solid green;
+    }
+
+    /* Absolute */
+    .absolute-container {
+      position: relative; /* Necessário para referencia ao elemento absoluto */
+      height: 200px;
+      background-color: lightgray;
+      margin: 30px 0;
+      
+    }
+
+    .absolute-example { 
+      position: absolute;
+      background-color: coral;
+      padding: 20px;
+      top: 20px;
+      left: 50px;
+      border: 2px solid red;
+    }
+
+    /* Fixed */
+    .fixed-example {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: gold;
+      padding: 10px;
+      border: 2px solid orange;
+    }
+
+    /* Sticky */
+    .sticky-example {
+      position: sticky;
+      top: 0;
+      background-color: yellow;
+      padding: 10px;
+      border: 2px solid black;
+    }
+
+    .content {
+      height: 800px; /* Simula o conteúdo para testar o sticky */
+      padding: 10px;
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exemplos de Position</h1>
+    
+    
+    <div class="static-example">Este elemento tem posição estática.</div>
+    
+    
+    <div class="relative-example">Este elemento tem posição relativa.</div>
+    
+
+    <div class="absolute-container">
+      <div class="absolute-example">Este elemento tem posição absoluta.</div>
+    </div>
+    
+
+    <div class="fixed-example">Este elemento tem posição fixa.</div>
+    
+    
+    <div class="sticky-example">Este elemento tem posição sticky. Role a página para testar.</div>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores eius atque esse maiores. Voluptates ducimus fugit eligendi, et molestiae, in aut, quas eveniet corporis distinctio exercitationem aliquam sapiente laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit, reiciendis quod perferendis esse itaque fuga odio tenetur adipisci, inventore asperiores, quas est ullam aspernatur ea accusantium quam vitae magni? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed earum quidem facilis, neque repellendus aperiam maiores est pariatur qui aliquam consequatur libero quas amet ullam nisi, sequi error et nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, sequi? Qui, sit ipsum? Illum doloremque ea unde placeat maxime perspiciatis eos debitis, culpa odit labore blanditiis porro, voluptate dolorem tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fugit reprehenderit quod. Accusamus facilis tempore, hic doloribus temporibus dolorem quidem perspiciatis similique nam quod eos? Laboriosam libero aliquam ullam dignissimos!</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Pseudo-elementos e Pseudo-classes</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 10px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        p::after {
+            content: " - Este é um pseudo-elemento ::after";
+            color: blue;
+        }
+
+        p::before {
+            content: "Inicio do parágrafo: ";
+            color: red;
+        }
+
+        p::first-letter {
+            font-size: 200%;
+            color: green;
+        }
+
+        p::first-line {
+            font-weight: bold;
+        }
+
+        p::selection {
+            background: yellow;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        input:focus {
+            border: 2px solid green;
+        }
+
+        button:active {
+            background-color: yellow;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        ul li:nth-child(2) {
+            color: purple;
+        }
+
+        ul li:last-child {
+            font-weight: bold;
+        }
+
+        ul li:first-of-type {
+            text-decoration: underline;
+            
+        }
+
+        .box {
+            height: calc(50vh - 20px);
+        }
+
+
+        
+
+        li:not(:first-child) { 
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Exemplo de parágrafo para demonstrar pseudo-elementos.</p>
+    </div>
+    <div class="container">
+        <a href="#">Passe o mouse sobre este link</a>
+    </div>
+    <div class="container">
+        <input type="text" placeholder="Foque neste campo de entrada">
+    </div>
+    <div class="container">
+        <button>Clique neste botão</button>
+    </div>
+    <div class="container">
+        <ul>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+            <li>Quarto item</li>
+            <li>Último item</li>
+        </ul>
+    </div>
+</body>
+</html>

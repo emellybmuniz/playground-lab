@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Estilização</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0F0A14;
+            color: #E0D6EB;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* --- Estilos para Títulos --- */
+        h1, h2, h3, h4, h5, h6 {
+            color: #D896FF;
+            margin-bottom: 10px;
+        }
+
+        h1 { font-size: 2.5em; }
+        h2 { font-size: 2em; }
+        h3 { font-size: 1.75em; }
+        h4 { font-size: 1.5em; }
+        h5 { font-size: 1.25em; }
+        h6 { font-size: 1em; }
+
+        /* --- Estilos para Formulário --- */
+        form {
+            background-color: #23232E;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin-top: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #D896FF;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #4A4A5A;
+            border-radius: 4px;
+            background-color: #1A1A24;
+            color: #E0D6EB;
+            box-sizing: border-box; /* Garante que padding não afete a largura total */
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #D896FF;
+            box-shadow: 0 0 5px rgba(216, 150, 255, 0.5);
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #4A4A5A;
+            border-radius: 4px;
+            background-color: #1A1A24;
+            color: #E0D6EB;
+            box-sizing: border-box;
+            /* Remove a aparência padrão e adiciona uma seta customizada */
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23D896FF' viewBox='0 0 16 16'%3e%3cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 16px 12px;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #D896FF;
+            box-shadow: 0 0 5px rgba(216, 150, 255, 0.5);
+        }
+
+        /* --- Estilos para Checkbox e Radio customizados --- */
+        .form-group-inline {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-group-inline label {
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            font-weight: normal; /* Sobrescreve o bold do label geral */
+            color: #E0D6EB;
+        }
+
+        /* Esconde o input original */
+        input[type="checkbox"],
+        input[type="radio"] {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+
+        /* Cria o elemento customizado */
+        .form-group-inline label::before {
+            content: '';
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            border: 2px solid #4A4A5A;
+            background-color: #1A1A24;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        /* Estilo para Checkbox */
+        input[type="checkbox"] + label::before {
+            border-radius: 4px;
+        }
+
+        input[type="checkbox"]:checked + label::before {
+            background-color: #D896FF;
+            border-color: #D896FF;
+            /* Ícone de check (SVG embutido) */
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%230F0A14' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 10px 10px;
+        }
+
+        /* Estilo para Radio */
+        input[type="radio"] + label::before {
+            border-radius: 50%;
+        }
+
+        input[type="radio"]:checked + label::before {
+            background-color: #1A1A24;
+            border: 5px solid #D896FF;
+        }
+
+        /* --- Estilos para Tabelas --- */
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            margin: 40px 0;
+            background-color: #23232E;
+            border-radius: 8px;
+            overflow: hidden; /* Garante que o border-radius funcione nas células */
+        }
+
+        textarea {
+            resize: vertical; /* Permite redimensionamento vertical */
+        }
+
+        button[type="submit"] {
+            background-color: #D896FF;
+            color: #0F0A14;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #c577f5;
+        }
+
+        caption {
+            caption-side: top;
+            text-align: left;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #D896FF;
+            padding: 15px;
+            background-color: #1a1a24;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #4A4A5A;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: #3a3a4a;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #1A1A24;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+
+    <h2>Formulário de Contato</h2>
+
+    <form action="processar.php" method="post">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com">
+        </div>
+        <div class="form-group">
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="msg" rows="5">Digite sua mensagem</textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Exemplo de Checkbox</h2>
+    <form>
+        <div class="form-group">
+            <label>Quais tecnologias você conhece?</label>
+
+            <div class="form-group-inline">
+                <input type="checkbox" id="html" name="tech" value="html">
+                <label for="html">HTML</label>
+            </div>
+            <div class="form-group-inline">
+                <input type="checkbox" id="css" name="tech" value="css">
+                <label for="css">CSS</label>
+            </div>
+            <div class="form-group-inline">
+                <input type="checkbox" id="js" name="tech" value="js">
+                <label for="js">JavaScript</label>
+            </div>
+        </div>
+    </form>
+
+    <h2>Exemplo de Radio Button</h2>
+    <form>
+        <div class="form-group">
+            <label>Qual seu nível de experiência?</label>
+            <div class="form-group-inline">
+                <input type="radio" id="iniciante" name="nivel" value="iniciante">
+                <label for="iniciante">Iniciante</label>
+            </div>
+            <div class="form-group-inline">
+                <input type="radio" id="intermediario" name="nivel" value="intermediario">
+                <label for="intermediario">Intermediário</label>
+            </div>
+            <div class="form-group-inline">
+                <input type="radio" id="avancado" name="nivel" value="avancado">
+                <label for="avancado">Avançado</label>
+            </div>
+        </div>
+    </form>
+
+    <h2>Exemplo de Select (Dropdown)</h2>
+    <form>
+        <div class="form-group">
+            <label for="pais">Selecione seu país:</label>
+            <select id="pais" name="pais">
+                <option value="br">Brasil</option>
+                <option value="pt">Portugal</option>
+                <option value="ao">Angola</option>
+                <option value="mz">Moçambique</option>
+            </select>
+        </div>
+    </form>
+
+    <table>
+        <tr>
+          <td colspan="2">Linha 1 Colunas 1 e 2</td>
+          <td rowspan="2">Coluna 3, linhas 1 e 2</td>
+        </tr>
+        <tr>
+          <td>Linha 2 Célula 1</td>
+          <td>Linha 2 Célula 2</td>
+        </tr>
+        <tr>
+          <td>Linha 3 Célula 1</td>
+          <td>Linha 3 Célula 2</td>
+        </tr>
+      </table>
+      
+      <table>
+        <caption>Preços (R$) de Frutas em Campinas</caption>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Ameixa preta</th>
+            <th>Pera d’água</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Atacado</th>
+            <td>1,00</td>
+            <td>1,50</td>
+          </tr>
+          <tr>
+            <th>Varejo</th>
+            <td>2,00</td>
+            <td>2,50</td>
+          </tr>
+        </tbody>
+      </table>
+
+      
+</body>
+
+</html>

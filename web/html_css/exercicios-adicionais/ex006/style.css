@@ -1,0 +1,22 @@
+
+div {
+    background-color: blue;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    
+}
+
+button {
+    height: 50%;
+    position: absolute;
+    top: 50px;
+    animation: normal;
+    transform: translate(50%, -50%);
+    
+}
+
+button:hover {
+
+    background-color: red 1s;
+}

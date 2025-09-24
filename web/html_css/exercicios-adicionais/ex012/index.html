@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            justify-content: center;
+            align-items: center;
+            background-color: tomato;
+            display: flex;
+            color: white;
+            padding: 10px;
+            flex-wrap: wrap;
+            max-width: 800px;
+            max-height: 800px;
+            margin: 30px;
+        }
+
+        .space-between {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: space-between;
+            flex-wrap: wrap;
+        }
+
+        .row-flex {
+            flex-direction: column;
+
+        }
+
+        .row-reverse {
+            flex-direction: column-reverse;
+        }
+        
+        .item-flex {
+            background-color: black;
+            flex-grow: 1;
+            margin: 5px;
+            padding: 10px;
+            flex-basis: auto;
+            text-align: center;
+            flex-direction: row;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container flex">
+        <div class="item-flex">texto 1</div>
+        <div class="item-flex">texto 2</div>
+        <div class="item-flex">texto 3</div>
+        <div class="item-flex">texto 4</div>
+    </div>
+
+    <div class="container flex">
+        <div class="item-flex">texto 1</div>
+        <div class="item-flex">texto 2</div>
+        <div class="item-flex">texto 3</div>
+        <div class="item-flex">texto 4</div>
+        <div class="item-flex">texto 5</div>
+        <div class="item-flex">texto 6</div>
+        <div class="item-flex">texto 7</div>
+    </div>
+
+
+    <div class="container row-flex">
+        <div class="item-flex">Texto de exemplo 1</div>
+        <div class="item-flex">Texto de exemplo 2</div>
+        <div class="item-flex">Texto de exemplo 3</div>
+        <div class="item-flex">Texto de exemplo 4</div>
+        <div class="item-flex">Texto de exemplo 5</div>
+    </div>
+
+    <div class="container row-flex row-reverse">
+        <div class="item-flex">Texto de exemplo 1</div>
+        <div class="item-flex">Texto de exemplo 2</div>
+        <div class="item-flex">Texto de exemplo 3</div>
+        <div class="item-flex">Texto de exemplo 4</div>
+        <div class="item-flex">Texto de exemplo 5</div>
+    </div>
+
+        <div class="container space-between">
+            <div class="item-flex">texto 1</div>
+            <div class="item-flex">texto 2</div>
+            <div class="item-flex">texto 3</div>
+            <div class="item-flex">texto 4</div>
+            <div class="item-flex">texto 5</div>
+        </div>
+
+        <div>
+            <h1>grid-template-areas</h1>
+            <section class="grid grid-template-areas-1">
+                <div class="item logo">logo</div>
+                <div class="item nav">nav</div>
+                <div class="item content">content</div>
+                <div class="item sidenav">sidenav</div>
+                <div class="item advert">advert</div>
+                <div class="item footer">footer</div>
+            </section>
+        </div>
+
+</body>
+</html>

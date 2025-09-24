@@ -1,0 +1,36 @@
+
+
+p {
+    color: blue;
+}
+
+
+.destaque {
+    font-weight: bold;
+
+    
+}
+
+h1#principal {
+    text-align: center;    
+}
+
+a:hover {
+    color: red;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+div p {
+    margin: 0;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+}

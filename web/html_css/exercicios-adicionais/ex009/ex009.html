@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row; 
+            justify-content: center; 
+            align-items: center; 
+            flex-wrap: wrap; 
+            align-content: center; 
+            background-color: lightgray;
+            padding: 20px;
+            height: 400px; 
+        }
+        .item {
+            background-color: coral;
+            padding: 20px;
+            margin: 10px;
+            color: white;
+            flex: 0 1 100px; /* Os itens terão pelo menos 100px e podem crescer até preencher o espaço disponível */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+</body>
+</html>
+
+
+

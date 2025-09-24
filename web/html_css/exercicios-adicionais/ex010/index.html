@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tipos de Display</title>
+<style>
+  body {
+    background-color: #2b2b2b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .container {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .box {
+    padding: 10px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border: 2px solid blue;
+  }
+
+  .block .box {
+    display: block;
+  }
+
+  .inline .box {
+    display: inline;
+  }
+
+  .inline-block .box {
+    display: inline-block;
+  }
+
+  .contents .inner {
+    display: contents;
+  }
+
+  .none .box {
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <h1>Tipos de Display</h1>
+
+  <div class="section block">
+    <h2>display: block;</h2>
+    <p>Ocupa toda a largura disponível, começando em uma nova linha.</p>
+    <div class="container">
+      <div class="box">Text 1</div>
+      <div class="box">Text 2</div>
+      <div class="box">Text 3</div>
+    </div>
+  </div>
+
+  <div class="section inline">
+    <h2>display: inline;</h2>
+    <p>Ocupa apenas a largura necessária e não inicia uma nova linha.</p>
+    <div class="container">
+      <div class="box">Text 1</div>
+      <div class="box">Text 2</div>
+      <div class="box">Text 3</div>
+    </div>
+  </div>
+
+  <div class="section inline-block">
+    <h2>display: inline-block;</h2>
+    <p>Combina características de block e inline.</p>
+    <div class="container">
+      <div class="box">Text 1</div>
+      <div class="box">Text 2</div>
+      <div class="box">Text 3</div>
+    </div>
+  </div>
+
+  <div class="section contents">
+    <h2>display: contents;</h2>
+    <p>Ignora o elemento pai, apresentando apenas o conteúdo.</p>
+    <div class="container inner">
+      <div class="box">Text 1</div>
+      <div class="box">Text 2</div>
+      <div class="box">Text 3</div>
+    </div>
+  </div>
+
+  <div class="section none">
+    <h2>display: none;</h2>
+    <p>O elemento não é exibido.</p>
+    <div class="container">
+      <div class="box">Text 1</div>
+      <div class="box">Text 2</div>
+      <div class="box">Text 3</div>
+    </div>
+  </div>
+</body>
+</html>

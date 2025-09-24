@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <div style="border: 1px solid black;">
+        Conteúdo do elemento
+    </div>
+
+    <style>
+        a {
+            text-decoration: none;
+            color: blueviolet;
+        }
+
+        a:hover {
+            font-weight: bolder;
+            cursor: pointer;
+            text-decoration: underline;
+            color: rgb(74, 23, 121);
+        }
+
+        a:active {
+            color: white;
+        }
+
+        .especial a:visited {
+            color: rgb(28, 3, 51);
+        }
+        
+
+        a::before {
+            content: 'Clique: ';
+        }
+
+        a::after {
+            content: ' [link]';
+            color: darkgray;
+        }
+
+        .especial {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+           <li><a href="https://www.instagram.com/emellybmuniz/" target="_blank">Visite minha página no Instagram</a></li> 
+    </ul>
+
+</body>
+</html>
