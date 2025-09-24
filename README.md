@@ -3,10 +3,10 @@
 This repository is a personal study diary where I document my learning journey across various programming languages and technologies. It serves as an organized collection of my practice code, exercises, and small projects.
 
 <!-- Badges -->
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/your-username/your-repo-name?style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/your-username/your-repo-name?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/your-username/your-repo-name?style=for-the-badge">
+<p margin-left=20px>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge">
 </p>
 
 ## 📂 Repository Structure
@@ -23,9 +23,9 @@ The repository is organized into the following main directories:
 
 This section tracks the overall progress in different areas.
 
-- [ ] **Java**: Fundamentals and OOP concepts.
+- [x] **Java**: Fundamentals and OOP concepts.
 - [ ] **Python**: Core concepts and data analysis.
-- [ ] **Web Development**: Basics of front-end technologies.
+- [x] **Web Development**: Basics of front-end technologies.
 
 ## 🌿 Branching Strategy
 
