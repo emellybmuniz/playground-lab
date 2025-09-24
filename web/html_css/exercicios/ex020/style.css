@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* em HTML é id = em CSS é # */
+
+
+
+
+body {
+    background-color: #64b9f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 16px;
+}
+
+h1{
+    color: #242D33;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 0px;
+    
+    
+}
+
+h1#principal {
+    text-align: center;
+    color: #242D33;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+h2{
+    color: #242D33;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.basico {
+    background-color: #242D339d;
+    color: white;
+
+}
+.intermediario {
+    background-color: #d981079d;
+    color: white;
+
+}
+
+.avancado {
+    background-color: #8461309d;
+    color: white;
+}
+
+.destaque {
+    background-color: rgb(224, 224, 138);
+}

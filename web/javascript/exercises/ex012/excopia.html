@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nomeCompleto = prompt('Digite seu nome completo');
+console.log(nomeCompleto);
+
+let contadorLetras = nomeCompleto.length;
+let segundaLetraNome = nomeCompleto.charAt(1);
+let primeiraOcorrenciaA = nomeCompleto.indexOf('a');
+let ultimaOcorrenciaA = nomeCompleto.lastIndexOf('a');
+let ultimasTresLetras = nomeCompleto.slice(-3);
+let palavrasDoNome = nomeCompleto.split(' ');
+let letrasMasc = nomeCompleto.toUpperCase();
+let letrasMinus = nomeCompleto.toLowerCase();
+
+document.body.innerHTML += `O seu nome é: ${nomeCompleto}<br />`;
+document.body.innerHTML += `Seu nome tem ${contadorLetras} letras <br/>`;
+document.body.innerHTML += `A segunda letra do seu nome é: ${segundaLetraNome} <br/>`;
+document.body.innerHTML += `Qual o primeiro índice da letra 'a' no seu nome? ${primeiraOcorrenciaA} <br/>`;
+document.body.innerHTML += `Qual o último índice da letra 'a' no seu nome? ${ultimaOcorrenciaA} <br/>`;
+document.body.innerHTML += `As últimas 3 letras do seu nome são: ${ultimasTresLetras} <br/>`;
+document.body.innerHTML += `As palavras do seu nome são: ${palavrasDoNome.join(', ')} <br/>`;
+document.body.innerHTML += `Seu nome com letras maiúsculas é: ${letrasMasc} <br/>`;
+document.body.innerHTML += `Seu nome com letras minúsculas é: ${letrasMinus} <br/>`;
+
+    </script>
+</body>
+</html>

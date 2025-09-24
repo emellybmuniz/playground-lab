@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+      }
+
+      body,
+      html {
+        background-color: #547c72;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100vw;
+        height: 100vh;
+        font-size: 3vw;
+      }
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      iframe {
+        width: 100vh;
+        height: 100vh;
+      }
+
+      @media screen and (orientation: portrait) {
+        h1 {
+          text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.458);
+        }
+      }
+
+      @media screen and (orientation: landscape) {
+        body,
+        html {
+          background-color: #a8c;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+
+      h1 {
+        transform: rotate(90deg);
+        position: fixed;
+        font-size: 6vh;
+        display: flex;
+        text-shadow: 2px 2px 0px rgb(117, 95, 139);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Muda a orientação do celular</h1>
+    </div>
+  </body>
+</html>

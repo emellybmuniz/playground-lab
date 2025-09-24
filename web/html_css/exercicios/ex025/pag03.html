@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            margin: 30px;
+            width: 200px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+        
+        thead, tbody {
+         text-align: center; 
+        }
+        
+        th {
+            border: 2px solid black;
+        }
+        
+        td {
+            border: 2px solid black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de tabelas</h1>
+
+    <table>
+        <thead>
+            <th>A</th>
+            <th colspan="2">B</th>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                
+                <td>B2</td>
+                <td rowspan="3">C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="2">A4</td>
+                
+                
+            </tr>
+        </tbody>
+    </table> 
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+
+        form {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        #input-button {
+            margin-top: 10px;
+        }
+
+        label {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Elementos color e range</legend>
+            <div id="elemento-color">
+                <label for="icolor">Cor: </label>
+                <input type="color" name="color" id="icolor" value="#0000FF">
+            </div>
+            
+            <div id="elemento-range">
+                <label for="irange">Nível de satisfação</label>
+                <input type="range" name="range" id="irange" min="1" max="2">
+            </div>
+        </fieldset>
+        <div id="input-button">
+            <input type="button" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>

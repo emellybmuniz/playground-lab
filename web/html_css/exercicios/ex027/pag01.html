@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+  <!-- Elementos de agrupamento e organização -->
+  <fieldset>
+    <legend>Legenda do Fieldset</legend>
+    
+    <!-- Campos de entrada de texto -->
+    <label for="inputText">Texto:</label>
+    <input type="text" id="inputText" name="inputText">
+    
+    <!-- Campos de entrada de senha -->
+    <label for="inputPassword">Senha:</label>
+    <input type="password" id="inputPassword" name="inputPassword">
+    
+    <!-- Campos de entrada de email -->
+    <label for="inputEmail">Email:</label>
+    <input type="email" id="inputEmail" name="inputEmail">
+    
+    <!-- Campos de entrada de número -->
+    <label for="inputNumber">Número:</label>
+    <input type="number" id="inputNumber" name="inputNumber">
+    
+    <!-- Campos de data -->
+    <label for="inputDate">Data:</label>
+    <input type="date" id="inputDate" name="inputDate">
+    
+    <!-- Campos de seleção -->
+    <label for="selectOption">Opções:</label>
+    <select id="selectOption" name="selectOption">
+      <option value="op1">Opção 1</option>
+      <option value="op2">Opção 2</option>
+      <option value="op3">Opção 3</option>
+    </select>
+    
+    <!-- Botões de rádio -->
+    <fieldset>
+      <legend>Opções de Rádio</legend>
+      <input type="radio" id="radio1" name="radioGroup" value="1">
+      <label for="radio1">Opção 1</label>
+      <input type="radio" id="radio2" name="radioGroup" value="2">
+      <label for="radio2">Opção 2</label>
+    </fieldset>
+    
+    <!-- Caixas de seleção -->
+    <fieldset>
+      <legend>Caixas de Seleção</legend>
+      <input type="checkbox" id="checkbox1" name="checkboxGroup" value="1">
+      <label for="checkbox1">Opção 1</label>
+      <input type="checkbox" id="checkbox2" name="checkboxGroup" value="2">
+      <label for="checkbox2">Opção 2</label>
+    </fieldset>
+    
+    <!-- Área de texto -->
+    <label for="textarea">Texto Longo:</label>
+    <textarea id="textarea" name="textarea"></textarea>
+    
+    <!-- Upload de arquivos -->
+    <label for="inputFile">Arquivo:</label>
+    <input type="file" id="inputFile" name="inputFile">
+    
+    <!-- Botões de submissão e reset -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Resetar</button>
+  </fieldset>
+</form>
+</body>
+</html>

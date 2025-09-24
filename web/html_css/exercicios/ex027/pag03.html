@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="formulario.php" autocomplete="on">
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" placeholder="insira seu nome" required minlength="3" maxlength="40" autocomplete="name">
+
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="number" id="inumber" required max="10" min="0" step="0.1" value="0">
+        </p>
+
+        <input type="submit" value="Enviar" >
+        <input type="reset" value="Limpar">
+
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* 600, 768, 990, 1200> */
+
+@media print {
+    * {
+        background-image: url(../imagens/back-print.jpg);
+        text-shadow: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    img#phone {
+        display: none;
+    }
+    
+    img#print {
+        display: block;
+    }
+
+    main {
+        border: 1px solid black;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width: 990px) {
+   body {
+    background-image: url(../imagens/back-tablet.jpg);
+   }
+
+   img#phone {
+    display: none;
+}
+    img#tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1200px){
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#desktop {
+        display: block;
+    }
+}
+@media screen and (min-width:1200px){
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }  
+}
+

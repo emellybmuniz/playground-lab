@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #e-mail {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div id="e-mail">
+                <label for="E-mail">E-mail</label>
+                <input type="text" name="E-mail" id="E-mail"minlength 11 autocomplete="email">
+            </div>
+
+            <div id="telefone">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" maxlength="11" minlength="10" pattern = "^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(XX) XXXXX-XXXX" wrequired>
+
+            </div>            
+        </fieldset>
+        <div>
+            <input type="button" value="enviar">
+            <input type="Reset" value="Limpar">
+        </div>
+
+
+    </form>
+</body>
+</html>

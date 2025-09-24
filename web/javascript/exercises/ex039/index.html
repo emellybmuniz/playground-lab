@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('click', function() {
+            document.body.style.backgroundColor='blue'
+        })
+
+        function Soma (a, b) {
+            return a + b
+        }
+        console.log(Soma(4,4))
+
+
+        function criaPessoa(nome, sobrenome) {
+            return {
+                nome,
+                sobrenome
+            }
+        }
+
+
+        function criaMultiplicador(multiplicador) {
+            return function(n) {
+                return n * multiplicador;
+            };
+        }
+
+        const duplica = criaMultiplicador(2);
+        const triplica = criaMultiplicador(3);
+        const quadriplica = criaMultiplicador(4);
+
+        console.log(duplica(2))
+        console.log(triplica(2))
+        console.log(quadriplica(2))
+    </script>
+</body>
+</html>

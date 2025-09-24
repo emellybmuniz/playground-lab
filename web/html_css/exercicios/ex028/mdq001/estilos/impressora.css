@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    color: black;
+}
+
+menu, li {
+    display: none;
+}
+
+article {
+    width: 100%;
+}

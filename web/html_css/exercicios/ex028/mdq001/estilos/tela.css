@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    padding: 2cqi;
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+}
+
+menu, li {
+    position: relative;
+    display: inline-block; 
+    padding: 5px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+menu {
+    width: 100vw;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+
+    margin: 5px;
+    line-height: 2;
+    text-indent: 15px;
+}
+
+article {
+    max-width: 500px;
+}

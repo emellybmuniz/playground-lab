@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical</title>
+    <style>
+        #container {
+            background-image: url(img/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            padding: 10px;
+            height: 500px;
+            background-color: purple;
+        }
+
+        #content {
+            background-image: url(img/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            background-color: yellow;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+
+
+            transform: translate(-50%, -50%);
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando a centralização vertical dos elementos</h1>
+
+    <section id="container">
+        <article id="content">
+            
+        </article>
+    </section>
+</body>
+</html>

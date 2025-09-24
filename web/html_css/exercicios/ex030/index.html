@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box-sizing</title>
+    <style>
+
+
+      .container {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 200px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: black;
+
+      }
+      
+      .item {
+        color: white;
+        background-color: red;
+        width: 20px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+     <main class="container">
+      <div class="item">a</div>
+      <div class="item">b</div>
+      <div class="item">c</div>
+     </main>
+  </body>
+</html>
