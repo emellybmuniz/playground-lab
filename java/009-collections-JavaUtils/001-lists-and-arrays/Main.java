@@ -11,12 +11,12 @@ public class Main {
         }
         System.out.println("-----");
 
-        // testingNewList();
-        // otherList();
-        // arraySize();
-        // LinkedListExample();
-        // listFromUser();
-        // VectorExample();
+        testingNewList();
+        otherList();
+        arraySize();
+        LinkedListExample();
+        listFromUser();
+        VectorExample();
         listWithClasses();
     }
 

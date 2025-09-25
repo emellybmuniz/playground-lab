@@ -13,6 +13,7 @@ This directory contains all my Java-related exercises and projects. The focus is
 - **`/007-Inheritance-Polymorphism`**: Core OOP principles.
 - **`/008-interfaces-and-lambda`**: Functional programming concepts.
 - **`/009-collections-JavaUtils`**: Working with Java's Collections Framework.
+- **`/010-map-and-wrappers`**: Working with Map and Wrappers.
 
 ## 🗺️ Learning Roadmap
 
