@@ -13,10 +13,10 @@ This directory is dedicated to web development, covering front-end technologies 
 
 This roadmap outlines a possible learning path for web development.
 
-- [ ] **Front-End Fundamentals**
-  - [ ] HTML5 and Semantic HTML
-  - [ ] CSS3 (Flexbox, Grid, Responsive Design)
-  - [ ] JavaScript (ES6+)
+- [x] **Front-End Fundamentals**
+  - [x] HTML5 and Semantic HTML
+  - [x] CSS3 (Flexbox, Grid, Responsive Design)
+  - [x] JavaScript (ES6+)
 - [ ] **JavaScript Frameworks**
   - [ ] React (Components, State, Hooks)
   - [ ] Vue.js or Angular
