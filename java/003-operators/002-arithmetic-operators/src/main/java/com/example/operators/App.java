@@ -1,3 +1,5 @@
+package com.example.operators;
+
 import java.util.Scanner;
 
 // Arithmetic Operators - making a simple calculator
@@ -6,14 +8,14 @@ public class App {
         try (var scanner = new Scanner(System.in)) {
             // methods to run
 
-            //calculateSquareRoot(scanner);
-            // Caculator(scanner);
+            calculateSquareRoot(scanner);
+            Calculator(scanner);
             // calculatePower(scanner);
-            increaseValue(scanner);
+            // increaseValue(scanner);
         };
     }
 
-private static void Caculator(Scanner scanner) {
+private static void Calculator(Scanner scanner) {
     System.out.print("Entre com o primeiro número: ");
     var num1 = scanner.nextDouble(); // float, double, etc.
     System.out.print("Entre com o segundo número: ");
@@ -55,7 +57,7 @@ private static void Caculator(Scanner scanner) {
 // Learning a little about Math.sqrt 
 private static void calculateSquareRoot(Scanner scanner) { 
     System.out.print("Entre com um número para calcular a raiz quadrada: ");
-    double value = scanner.nextInt();
+    double value = scanner.nextDouble();
 
     if (value < 0) {
         System.out.println("Não é possível calcular a raiz quadrada de um número negativo.");
