@@ -1,4 +1,10 @@
 import random
+import os
+
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+words_file_path = os.path.join(script_dir, 'words.txt')
+score_file_path = os.path.join(script_dir, 'score.txt')
 
 # Função para exibir o menu
 def menu():
@@ -20,16 +26,20 @@ def menu():
 # Função para mostrar o score
 def mostrar_score():
     try:
-        with open('score.txt', 'r') as show_score:
+        with open(score_file_path, 'r') as show_score:
             print("Scores:")
             for linha in show_score:
                 print(linha.strip())  # Imprime cada linha removendo espaços em branco
     except FileNotFoundError:
         print("Ainda não há pontuações registradas.")
 
-words_list = []
-with open('words.txt', 'r') as words:
-    words_list = [linha.strip() for linha in words.readlines()]
+words_list = [] 
+try:
+    with open(words_file_path, 'r') as words:
+        words_list = [linha.strip() for linha in words.readlines()]
+except FileNotFoundError:
+    print(f"ERRO: O arquivo de palavras '{os.path.basename(words_file_path)}' não foi encontrado.")
+    print("Certifique-se de que ele está na mesma pasta do jogo.")
 
 def aleatorizar_palavra():
     if words_list:
@@ -42,14 +52,20 @@ name = input('Como devo chamá-lo(a)? ')
 def score(situacao):
     if situacao in ['derrota', 'vitoria']: 
         rounds.append({'Nome': name, 'Situação': situacao})
-        with open('score.txt', 'a') as score_partida:  
+        with open(score_file_path, 'a') as score_partida:  
             score_partida.write(f"{name}: {situacao}\n")
 
 # Função principal do jogo
 def play():
     tentativa = 10 
     letras_usadas = []
-    random_word_ref = aleatorizar_palavra().lower()
+
+    palavra_aleatoria = aleatorizar_palavra()
+    if not palavra_aleatoria:
+        print("\nNão há palavras no arquivo para jogar. Encerrando o jogo.")
+        return
+
+    random_word_ref = palavra_aleatoria.lower()
     random_word_ref_list = list(random_word_ref)
     palavra_escondida = ['_'] * len(random_word_ref)
     print(f'A palavra tem {len(random_word_ref)} letras')

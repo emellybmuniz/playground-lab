@@ -1,3 +1,5 @@
+package listsarrays;
+
 public class User {
     // Attributes
     private int id;
@@ -29,18 +31,24 @@ public class User {
 
     // toString method to print the object
     // prints the class name and the hash code of the object
+    // Melhorado para mostrar os dados do usuário, o que ajuda na depuração.
     @Override
     public String toString() {
-        return "User{}";
+        return "User{" +
+               "id=" + id +
+               ", name='" + name + '\'' +
+               '}';
     }
 
     // equals method to compare two objects
-    // two objects are considered equal if they are of the same class
-    // It's a simplistic implementation and may not be suitable for all use cases
+    // Esta implementação agora compara os objetos com base no 'id'.
+    // Isso é crucial para que métodos como 'contains()' funcionem corretamente.
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-        return true;
+        User user = (User) obj;
+        // Dois usuários são considerados iguais se tiverem o mesmo id.
+        return id == user.id;
     }
 }

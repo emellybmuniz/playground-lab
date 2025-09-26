@@ -1,4 +1,6 @@
-import java.util.HashMap;
+package maps;
+
+import java.util.HashMap; 
 import java.util.Map;
 
 public class Main {
