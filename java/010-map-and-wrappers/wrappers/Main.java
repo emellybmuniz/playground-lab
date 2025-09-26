@@ -1,5 +1,3 @@
-package wrappers;
-
 public class Main {
     public static void main(String[] args) {
         // Wrappers, Primitives, and Autoboxing

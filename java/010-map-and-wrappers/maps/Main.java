@@ -1,5 +1,3 @@
-package maps;
-
 import java.util.HashMap; 
 import java.util.Map;
 
@@ -27,5 +25,18 @@ public class Main {
         System.out.println(("--------------------------"));
         users.values().forEach(System.out::println);
 
+        System.out.println(("--------------------------"));
+        System.out.println("Buscando um usuário existente (get):");
+        User foundUser = users.get("maria@gmail.com");
+        System.out.println(foundUser);
+
+        System.out.println("\nBuscando um usuário inexistente (retorna null):");
+        User notFoundUser = users.get("inexistente@gmail.com");
+        System.out.println(notFoundUser);
+
+        System.out.println("\nBuscando um usuário inexistente com valor padrão (getOrDefault):");
+        User defaultUser = new User(0, "Convidado");
+        User userOrDefault = users.getOrDefault("inexistente@gmail.com", defaultUser);
+        System.out.println(userOrDefault);
     }
 }

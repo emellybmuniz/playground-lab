@@ -11,7 +11,7 @@ public class Main {
         for (String pair : result) {
             System.out.println("pair: " + pair + " hashcode: " + pair.hashCode());
         }
-    };
+    }
 
     public static Set<String> findPairs(int[] arr, int target) {
         Set<String> pairs = new HashSet<>();
@@ -26,11 +26,5 @@ public class Main {
             seen.add(num);
         }
         return pairs;
-    }
-
-    // hascode 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
     }
 }

@@ -1,3 +1,4 @@
+package listsarrays;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -90,12 +91,12 @@ public class Main {
 
     private static void listWithClasses() {
         List<User> users = new ArrayList<>();
-        var user = new User(1, "John");
-        users.add(user);
-        user = new User(2, "Jane");
-        users.add(user);
-        user = new User(3, "Doe");
-        users.add(user);
+        User user1 = new User(1, "John");
+        users.add(user1);
+        User user2 = new User(2, "Jane");
+        users.add(user2);
+        User user3 = new User(3, "Doe");
+        users.add(user3);
         for (User u : users) {
             System.out.println(u.getName());
         }

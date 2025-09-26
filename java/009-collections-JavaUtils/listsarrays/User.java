@@ -51,4 +51,10 @@ public class User {
         // Dois usuários são considerados iguais se tiverem o mesmo id.
         return id == user.id;
     }
+
+    // hashCode method to generate a hash code for the object
+    @Override
+    public int hashCode() {
+        return java.util.Objects.hash(id);
+    }
 }
