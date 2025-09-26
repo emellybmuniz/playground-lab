@@ -1,4 +1,6 @@
-public class primitiveTypes {
+package hello;
+
+public class PrimitiveTypes {
     byte number = 10; // 8 bits, range: -128 to 127
     short smallNumber = 1000; // 16 bits, range: -32,768 to 32,767
     int integerNumber = 100000; // 32 bits, range: -2,147,483,648 to 2,147,483,647
