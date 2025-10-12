@@ -19,6 +19,7 @@ This directory contains all my Java-related exercises and projects. The focus is
 - **`/013-steams-of-api-and-generics`**: Working with streams and generics.
 - **`/014-calendar-and-data-classes`**: Working with calendar and data classes.
 - **`/015-offset-localtime-localdate`**: Working with OffsetDateTime, OffsetTime, LocalDate, LocalDateTime, and LocalTime.
+- **`/projects`**: Collection of mini-projects that I've made.
 
 ## 🗺️ Learning Roadmap
 
@@ -44,11 +45,11 @@ This directory contains all my Java-related exercises and projects. The focus is
 
   - [x] Collections & Streams API: Handling data structures (Lists, Sets, Maps) and functional programming.
 
-  - [ ] Error Handling: Managing exceptions and errors.
+  - [x] Error Handling: Managing exceptions and errors.
 
   - [ ] Testing: Fundamentals of unit testing (JUnit).
 
-  - [ ] Packages: Code organization and management.
+  - [x] Packages: Code organization and management.
 
 - 🚀 **Deepening the Ecosystem**
   - [ ] JVM: Understanding the Java Virtual Machine and memory management.
