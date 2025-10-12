@@ -53,9 +53,9 @@ private static void Caculator(Scanner scanner) {
 
 // Getting out of the Scope operators 
 // Learning a little about Math.sqrt 
-private static void calculateSquareRoot(Scanner scanner) { 
+public static void calculateSquareRoot(Scanner scanner) {
     System.out.print("Entre com um número para calcular a raiz quadrada: ");
-    double value = scanner.nextInt();
+    double value = scanner.nextDouble();
 
     if (value < 0) {
         System.out.println("Não é possível calcular a raiz quadrada de um número negativo.");
