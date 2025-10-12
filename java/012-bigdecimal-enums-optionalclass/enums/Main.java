@@ -24,7 +24,6 @@ public class Main {
                             return;
                         }
 
-                        OperationEnum selectedOperation = OperationEnum.values()[choice - 1];
             OperationEnum selectedOperation = OperationEnum.values()[choice - 1];
             BigDecimal result;
             try {

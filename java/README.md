@@ -15,27 +15,65 @@ This directory contains all my Java-related exercises and projects. The focus is
 - **`/009-collections-JavaUtils`**: Working with Java's Collections Framework.
 - **`/010-map-and-wrappers`**: Working with Map and Wrappers.
 - **`/011-string-classes-stringbuilder-stringbuffer`**: Working with Map and Wrappers.
-- **`/012-bigdecimal-enums-optionalclass`**: Working with Map and Wrappers.
-
+- **`/012-bigdecimal-enums-optionalclass`**: Working with bigdecimal and enums.
+- **`/013-steams-of-api-and-generics`**: Working with streams and generics.
+- **`/014-calendar-and-data-classes`**: Working with calendar and data classes.
+- **`/015-offset-localtime-localdate`**: Working with OffsetDateTime, OffsetTime, LocalDate, LocalDateTime, and LocalTime.
 
 ## 🗺️ Learning Roadmap
 
-This roadmap outlines a possible learning path for Java.
+- 🏗️ **Infrastructure (Foundational Knowledge)**
 
-- [x] **Java Fundamentals**
-  - [x] Basic Syntax and Data Types
-  - [x] Operators and Control Flow
-  - [x] Methods and Arrays
-- [x] **Object-Oriented Programming (OOP)**
-  - [x] Classes and Objects
-  - [x] Encapsulation, Inheritance, and Polymorphism
-  - [x] Interfaces and Abstract Classes
-- [x] **Advanced Concepts**
-  - [x] Collections Framework (Lists, Sets, Maps)
-  - [x] Generics
-  - [x] Exceptions and Error Handling
-  - [x] Lambda Expressions and Streams
-- [ ] **Tools and Ecosystem**
-  - [ ] Build tools (Maven/Gradle)
-  - [ ] Testing (JUnit)
-  - [ ] Standard Library (I/O, Networking)
+  - [x] Git & GitHub: Code versioning fundamentals.
+
+  - [x] HTTP: Understanding the base protocol of the web.
+
+  - [x] JSON: Data structure for communication between systems.
+
+  - [x] Command Line: Terminal fundamentals.
+
+  - [x] Cloud: Basic concepts of cloud computing.
+
+  - [x] SQL: Fundamentals of relational databases.
+
+- ☕ **Fundamentals**
+
+  - [x] Programming Logic & Java Fundamentals: Syntax, variables, operators, and control structures.
+
+  - [x] Object-Oriented Programming Concepts: Classes, objects, encapsulation, inheritance, polymorphism.
+
+  - [x] Collections & Streams API: Handling data structures (Lists, Sets, Maps) and functional programming.
+
+  - [ ] Error Handling: Managing exceptions and errors.
+
+  - [ ] Testing: Fundamentals of unit testing (JUnit).
+
+  - [ ] Packages: Code organization and management.
+
+- 🚀 **Deepening the Ecosystem**
+  - [ ] JVM: Understanding the Java Virtual Machine and memory management.
+
+  - [ ] Build Tools: Dependency and project management with Maven or Gradle.
+
+  - [ ] Spring Framework & Spring Boot: The main ecosystem for Java application development.
+
+  - [ ] Data Persistence: Integration with databases (JPA/Hibernate).
+
+- 🌌 **Advanced Topics**
+
+  - [ ] Microservices Architecture: Patterns and concepts.
+
+  - [ ] Concurrency: Parallel programming and multithreading.
+
+  - [ ] Containers: Docker and orchestration concepts.
+
+  - [ ] Messaging: Asynchronous communication with Kafka.
+ 
+- ✅ Best Practices (Cross-cutting Topics)
+  - [ ] SOLID: Principles of class design.
+
+  - [ ] Clean Code & Clean Architecture: Writing clean, sustainable, and well-structured code.
+
+  - [ ] Design Patterns: Standardized solutions for common software design problems.
+
+  - [ ] Domain-Driven Design (DDD): Concepts of domain-oriented design.
