@@ -14,6 +14,9 @@ This directory contains all my Java-related exercises and projects. The focus is
 - **`/008-interfaces-and-lambda`**: Functional programming concepts.
 - **`/009-collections-JavaUtils`**: Working with Java's Collections Framework.
 - **`/010-map-and-wrappers`**: Working with Map and Wrappers.
+- **`/011-string-classes-stringbuilder-stringbuffer`**: Working with Map and Wrappers.
+- **`/012-bigdecimal-enums-optionalclass`**: Working with Map and Wrappers.
+
 
 ## 🗺️ Learning Roadmap
 
@@ -27,11 +30,11 @@ This roadmap outlines a possible learning path for Java.
   - [x] Classes and Objects
   - [x] Encapsulation, Inheritance, and Polymorphism
   - [x] Interfaces and Abstract Classes
-- [ ] **Advanced Concepts**
-  - [ ] Collections Framework (Lists, Sets, Maps)
-  - [ ] Generics
-  - [ ] Exceptions and Error Handling
-  - [ ] Lambda Expressions and Streams
+- [x] **Advanced Concepts**
+  - [x] Collections Framework (Lists, Sets, Maps)
+  - [x] Generics
+  - [x] Exceptions and Error Handling
+  - [x] Lambda Expressions and Streams
 - [ ] **Tools and Ecosystem**
   - [ ] Build tools (Maven/Gradle)
   - [ ] Testing (JUnit)
