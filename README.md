@@ -24,8 +24,8 @@ The repository is organized into the following main directories:
 This section tracks the overall progress in different areas.
 
 - [x] **Java**: Fundamentals and OOP concepts.
-- [ ] **Python**: Core concepts and data analysis.
 - [x] **Web Development**: Basics of front-end technologies.
+- [ ] **Python**: Core concepts and data analysis.
 
 ## 🌿 Branching Strategy
 
