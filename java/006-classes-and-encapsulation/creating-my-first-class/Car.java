@@ -33,6 +33,7 @@ public class Car {
     private String make;
     private String model;
     private int year;
+    private static int carCounter = 0;
 
     // This is a "constructor". It's a special method used to create a new Car object.
     // It initializes the object's state (its attributes).
@@ -40,6 +41,7 @@ public class Car {
         this.make = make;
         this.model = model;
         this.year = year;
+        carCounter++;
     }
 
     // --- PUBLIC INTERFACE (Getters and Setters) ---
@@ -69,5 +71,9 @@ public class Car {
     // It uses the class's own private data.
     public void displayInfo() {
         System.out.println("Car Info: " + year + " " + make + " " + model);
+    }
+
+    public static int getCarCounter() {
+        return carCounter;
     }
 }
