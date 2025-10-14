@@ -19,20 +19,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "emellybmuniz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;emellybmuniz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/emellybmuniz/studies.git",
-    "accountId": "91b5cc8c-598d-4938-957a-de1da9054bce"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/emellybmuniz/studies.git&quot;,
+    &quot;accountId&quot;: &quot;91b5cc8c-598d-4938-957a-de1da9054bce&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -51,7 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "project",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -84,6 +84,7 @@
       <workItem from="1760293388485" duration="3708000" />
       <workItem from="1760362027486" duration="4779000" />
       <workItem from="1760394351452" duration="2259000" />
+      <workItem from="1760467798793" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="add user management system with CRUD operations and necessary configurations">
       <option name="closed" value="true" />
