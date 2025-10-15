@@ -19,13 +19,143 @@ The repository is organized into the following main directories:
 - **[`/extras/`](./extras/)**: Miscellaneous studies, such as SQL, Bash scripting, and Docker.
 - **[`/logs/`](./logs/)**: Study notes and logs in Markdown format.
 
-## 📈 Progress
+## 📈 Progress - Roadmap
 
 This section tracks the overall progress in different areas.
 
-- [x] **Java**: Fundamentals and OOP concepts.
-- [x] **Web Development**: Basics of front-end technologies.
-- [ ] **Python**: Core concepts and data analysis.
+### 🏛️ **Phase 1: Fundamentals**
+
+* [x] **Git & GitHub:** Code versioning fundamentals.
+* [x] **Command Line (CLI):** Interaction with the operating system.
+* [x] **HTTP/HTTPS:** The web protocol.
+* [x] **JSON:** Data exchange format.
+* [x] **Cloud:** Basic concepts of cloud computing.
+* [x] **SQL:** Fundamentals of relational databases.
+* **Package Managers:**
+    * [ ] npm
+    * [ ] Yarn
+    * [ ] pnpm
+
+### 🎨 **Phase 2: Front-End Development**
+
+* [x] **HTML:** The structure and skeleton of all web pages.
+* [x] **CSS:** Styling, layout, and responsive design.
+    * [ ] Tailwind CSS
+    * [ ] Sass
+    * [ ] Styled-components
+* [ ] **JavaScript:** The language that brings life and interactivity to the web.
+    * [x] Fundamentals (Types, Variables, Functions, Loops, Conditionals).
+    * [x] **DOM** Manipulation.
+    * [ ] Asynchronicity (Promises, Async/Await).
+    * [ ] Modularization (ES Modules).
+    * [x] Storage (LocalStorage).
+    * [x] Error Handling.
+    * [x] Accessibility Concepts.
+* [ ] **TypeScript:** JavaScript with static typing superpowers for more robust projects.
+* [ ] **React.js:** The library for building modern user interfaces.
+    * [ ] React Router
+    * [ ] React Hook Form
+    * [ ] React Query
+    * **State Management:**
+        * [ ] Redux Toolkit
+        * [ ] Zustand
+* [ ] **Next.js:** The React framework for production, with Server-Side Rendering (SSR) and Static Site Generation (SSG).
+* **Build Tools:**
+    * [ ] Vite
+    * [ ] Webpack
+
+### ⚙️ **Phase 3: Back-End Development (JavaScript Ecosystem)**
+
+* [ ] **Node.js:** The environment that allows running JavaScript on the server.
+* [ ] **Express.js:** Minimalist framework for creating APIs and web servers.
+* [ ] **Nest.js:** Progressive framework for building efficient and scalable applications using TypeScript.
+* **APIs and Protocols:**
+    * [ ] **REST:** The architectural standard for most APIs.
+    * [ ] **GraphQL:** A more flexible query language for APIs.
+        * [ ] Apollo
+* **Authentication & Security:**
+    * [ ] JSON Web Tokens (JWT)
+* **Real-time Communication:**
+    * [ ] **WebSockets:** For interactive applications like chats and games.
+
+### 🗃️ **Phase 4: Databases**
+
+* **SQL (Relational Databases):**
+    * [x] SQL Language
+    * [x] MySQL
+    * [ ] PostgreSQL
+    * [ ] Sequelize (ORM)
+    * [ ] Prisma (ORM)
+* **NoSQL (Non-Relational Databases):**
+    * [ ] MongoDB
+    * [ ] Mongoose (ODM)
+
+### ✅ **Phase 5: Testing and Code Quality**
+
+* [ ] **Jest:** Framework for unit tests.
+* [ ] **Cypress:** Tool for end-to-end (E2E) tests.
+* [ ] **ESLint:** For code analysis and finding problems.
+* [x] **Prettier:** For automatic code formatting.
+
+### 🏗️ **Phase 6: Architecture and Best Practices**
+
+* [x] **SOLID:** Principles of class design.
+* [ ] **Web Security:** Understanding the OWASP Top 10.
+* [ ] **Clean Architecture:** Code organization focused on independence and testability.
+* [ ] **Design Patterns:** Reusable solutions for common software problems.
+* [ ] **Domain-Driven Design (DDD):** Software modeling based on business rules.
+* [ ] **Microservices Architecture:** Building systems as a set of small, independent services.
+
+### 🚀 **Phase 7: Infrastructure and Deployment (DevOps)**
+
+* **Containers:**
+    * [ ] **Docker:** To package and distribute your applications.
+    * [ ] **Kubernetes:** To orchestrate containers at scale.
+    * [ ] **Container Registry:** Docker Hub, GitHub Packages
+* **CI/CD (Continuous Integration and Delivery):**
+    * [ ] GitHub Actions
+* **Cloud Computing:**
+    * [x] Fundamentals (IaaS, PaaS, SaaS)
+    * [x] AWS
+    * [x] Azure
+    * [x] Google Cloud
+* **Messaging and Queues:**
+    * [ ] **Kafka:** For asynchronous communication and large-scale event processing.
+
+### ✨ **Phase 8: Web Specializations & Ecosystems**
+
+* **UX/UI & Design:**
+    * [x] Figma
+    * [x] Responsive Design & Mobile First
+    * [ ] Design Systems
+* **Mobile Development:**
+    * [ ] **React Native:** Create mobile apps with React.
+* **CMS (Content Management System):**
+    * [ ] **WordPress**
+* **Data Science & Machine Learning:**
+    * [ ] Scikit-learn
+    * [ ] Keras
+    * [ ] TensorFlow
+    * [ ] Numpy
+    * [ ] Pandas
+
+### 📚 **Phase 9: Alternative Back-End Stacks**
+
+* **Java:**
+    * [x] **Java** Language Fundamentals
+    * [ ] Spring Framework & Spring Boot
+* **Python:**
+    * [x] **Python** Language Fundamentals
+    * [ ] Django
+    * [ ] Flask
+* **PHP:**
+    * [ ] **PHP** Language Fundamentals
+    * [ ] Laravel
+
+### 💻 **Phase 10: Foundational & Systems Programming**
+
+* [ ] **C**
+* [ ] **C++**
 
 ## 🌿 Branching Strategy
 
