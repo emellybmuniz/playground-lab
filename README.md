@@ -31,10 +31,10 @@ This section tracks the overall progress in different areas.
 * [x] **JSON:** Data exchange format.
 * [x] **Cloud:** Basic concepts of cloud computing.
 * [x] **SQL:** Fundamentals of relational databases.
-* **Package Managers:**
-    * [ ] npm
-    * [ ] Yarn
-    * [ ] pnpm
+* **Package & Environment Management:**
+    * [ ] npm / Yarn / pnpm (for JavaScript)
+    * [x] venv (for Python)
+    * [x] Maven / Gradle (for Java)
 
 ### 🎨 **Phase 2: Front-End Development**
 
