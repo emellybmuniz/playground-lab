@@ -2,11 +2,10 @@
 
 This repository is a personal study diary where I document my learning journey across various programming languages and technologies. It serves as an organized collection of my practice code, exercises, and small projects.
 
-<!-- Badges -->
 <p margin-left=20px>
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge">
+<img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
 </p>
 
 ## 📂 Repository Structure
@@ -39,7 +38,8 @@ This section tracks the overall progress in different areas.
 ### 🎨 **Phase 2: Front-End Development**
 
 * [x] **HTML:** The structure and skeleton of all web pages.
-* [x] **CSS:** Styling, layout, and responsive design.
+* [x] **CSS:** Styling, layout, and responsive design. 
+    * [ ] Bootstrap
     * [ ] Tailwind CSS
     * [ ] Sass
     * [ ] Styled-components
@@ -144,18 +144,24 @@ This section tracks the overall progress in different areas.
 * **Java:**
     * [x] **Java** Language Fundamentals
     * [ ] Spring Framework & Spring Boot
+    * [ ] JPA / Hibernate: ORM for data persistence
 * **Python:**
     * [x] **Python** Language Fundamentals
     * [ ] Django
     * [ ] Flask
+    * [ ] FastAPI: framework for building APIs
 * **PHP:**
     * [ ] **PHP** Language Fundamentals
     * [ ] Laravel
+* **Kotlin Ecosystem:**
+    * [ ] Kotlin Language Fundamentals
+    * [ ] Ktor / Spring Boot with Kotlin: For building modern, concise back-end services.
 
 ### 💻 **Phase 10: Foundational & Systems Programming**
 
-* [ ] **C**
-* [ ] **C++**
+* [ ] **C:** Procedural language, foundational for operating systems and embedded systems.
+* [ ] **C++:**  High-performance language for games, complex systems, and competitive programming.
+
 
 ## 🌿 Branching Strategy
 
