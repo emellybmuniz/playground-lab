@@ -31,7 +31,7 @@ This section tracks the overall progress in different areas.
 * [x] **Cloud:** Basic concepts of cloud computing.
 * [x] **SQL:** Fundamentals of relational databases.
 * **Package & Environment Management:**
-    * [ ] npm / Yarn / pnpm (for JavaScript)
+    * [x] npm / Yarn / pnpm (for JavaScript)
     * [x] venv (for Python)
     * [x] Maven / Gradle (for Java)
 
