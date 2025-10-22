@@ -24,143 +24,143 @@ This section tracks the overall progress in different areas.
 
 ### 🏛️ **Phase 1: Fundamentals**
 
-* [x] **Git & GitHub:** Code versioning fundamentals.
-* [x] **Command Line (CLI):** Interaction with the operating system.
-* [x] **HTTP/HTTPS:** The web protocol.
-* [x] **JSON:** Data exchange format.
-* [x] **Cloud:** Basic concepts of cloud computing.
-* [x] **SQL:** Fundamentals of relational databases.
+* [x] **Git & GitHub:** Code versioning fundamentals.  
+* [x] **Command Line (CLI):** Interaction with the operating system.  
+* [x] **HTTP/HTTPS:** The web protocol.  
+* [x] **JSON:** Data exchange format.  
+* [x] **Cloud:** Basic concepts of cloud computing.  
+* [x] **SQL:** Fundamentals of relational databases.  
 * **Package & Environment Management:**
-    * [x] npm / Yarn / pnpm (for JavaScript)
-    * [x] venv (for Python)
-    * [x] Maven / Gradle (for Java)
+  * [x] npm / Yarn / pnpm (for JavaScript)
+  * [x] venv (for Python)
+  * [x] Maven / Gradle (for Java)
 
 ### 🎨 **Phase 2: Front-End Development**
 
-* [x] **HTML:** The structure and skeleton of all web pages.
-* [x] **CSS:** Styling, layout, and responsive design. 
-    * [ ] Bootstrap
-    * [ ] Tailwind CSS
-    * [ ] Sass
-    * [ ] Styled-components
-* [ ] **JavaScript:** The language that brings life and interactivity to the web.
-    * [x] Fundamentals (Types, Variables, Functions, Loops, Conditionals).
-    * [x] **DOM** Manipulation.
-    * [ ] Asynchronicity (Promises, Async/Await).
-    * [ ] Modularization (ES Modules).
-    * [x] Storage (LocalStorage).
-    * [x] Error Handling.
-    * [x] Accessibility Concepts.
-* [ ] **TypeScript:** JavaScript with static typing superpowers for more robust projects.
-* [ ] **React.js:** The library for building modern user interfaces.
-    * [ ] React Router
-    * [ ] React Hook Form
-    * [ ] React Query
-    * **State Management:**
-        * [ ] Redux Toolkit
-        * [ ] Zustand
-* [ ] **Next.js:** The React framework for production, with Server-Side Rendering (SSR) and Static Site Generation (SSG).
+* [x] **HTML:** The structure and skeleton of all web pages.  
+* [x] **CSS:** Styling, layout, and responsive design.  
+  * [ ] Bootstrap
+  * [ ] Tailwind CSS
+  * [ ] Sass
+  * [ ] Styled-components
+* [ ] **JavaScript:** The language that brings life and interactivity to the web.  
+  * [x] Fundamentals (Types, Variables, Functions, Loops, Conditionals)
+  * [x] DOM Manipulation
+  * [ ] Asynchronicity (Promises, Async/Await)
+  * [ ] Modularization (ES Modules)
+  * [x] Storage (LocalStorage)
+  * [x] Error Handling
+  * [x] Accessibility Concepts
+* [ ] **TypeScript:** JavaScript with static typing superpowers for more robust projects.  
+* [ ] **React.js:** The library for building modern user interfaces.  
+  * [ ] React Router
+  * [ ] React Hook Form
+  * [ ] React Query
+  * **State Management:**
+    * [ ] Redux Toolkit
+    * [ ] Zustand
+* [ ] **Next.js:** The React framework for production, with SSR and SSG.  
 * **Build Tools:**
-    * [ ] Vite
-    * [ ] Webpack
+  * [ ] Vite
+  * [ ] Webpack
 
 ### ⚙️ **Phase 3: Back-End Development (JavaScript Ecosystem)**
 
-* [ ] **Node.js:** The environment that allows running JavaScript on the server.
-* [ ] **Express.js:** Minimalist framework for creating APIs and web servers.
-* [ ] **Nest.js:** Progressive framework for building efficient and scalable applications using TypeScript.
+* [ ] **Node.js:** The environment that allows running JavaScript on the server.  
+* [ ] **Express.js:** Minimalist framework for creating APIs and web servers.  
+* [ ] **Nest.js:** Progressive framework for building efficient and scalable applications using TypeScript.  
 * **APIs and Protocols:**
-    * [ ] **REST:** The architectural standard for most APIs.
-    * [ ] **GraphQL:** A more flexible query language for APIs.
-        * [ ] Apollo
+  * [ ] REST
+  * [ ] GraphQL
+    * [ ] Apollo
 * **Authentication & Security:**
-    * [ ] JSON Web Tokens (JWT)
+  * [ ] JSON Web Tokens (JWT)
 * **Real-time Communication:**
-    * [ ] **WebSockets:** For interactive applications like chats and games.
+  * [ ] WebSockets
 
 ### 🗃️ **Phase 4: Databases**
 
 * **SQL (Relational Databases):**
-    * [x] SQL Language
-    * [x] MySQL
-    * [ ] PostgreSQL
-    * [ ] Sequelize (ORM)
-    * [ ] Prisma (ORM)
+  * [x] SQL Language
+  * [x] MySQL
+  * [ ] PostgreSQL
+  * [ ] Sequelize
+  * [ ] Prisma
 * **NoSQL (Non-Relational Databases):**
-    * [ ] MongoDB
-    * [ ] Mongoose (ODM)
+  * [x] MongoDB
+  * [ ] Mongoose
 
 ### ✅ **Phase 5: Testing and Code Quality**
 
-* [ ] **Jest:** Framework for unit tests.
-* [ ] **Cypress:** Tool for end-to-end (E2E) tests.
-* [ ] **ESLint:** For code analysis and finding problems.
-* [x] **Prettier:** For automatic code formatting.
+* [ ] Jest
+* [ ] Cypress
+* [ ] ESLint
+* [x] Prettier
 
 ### 🏗️ **Phase 6: Architecture and Best Practices**
 
-* [x] **SOLID:** Principles of class design.
-* [ ] **Web Security:** Understanding the OWASP Top 10.
-* [ ] **Clean Architecture:** Code organization focused on independence and testability.
-* [ ] **Design Patterns:** Reusable solutions for common software problems.
-* [ ] **Domain-Driven Design (DDD):** Software modeling based on business rules.
-* [ ] **Microservices Architecture:** Building systems as a set of small, independent services.
+* [x] SOLID
+* [ ] Web Security
+* [ ] Clean Architecture
+* [ ] Design Patterns
+* [ ] Domain-Driven Design (DDD)
+* [ ] Microservices Architecture
 
 ### 🚀 **Phase 7: Infrastructure and Deployment (DevOps)**
 
 * **Containers:**
-    * [ ] **Docker:** To package and distribute your applications.
-    * [ ] **Kubernetes:** To orchestrate containers at scale.
-    * [ ] **Container Registry:** Docker Hub, GitHub Packages
-* **CI/CD (Continuous Integration and Delivery):**
-    * [ ] GitHub Actions
+  * [ ] Docker
+  * [ ] Kubernetes
+  * [ ] Container Registry
+* **CI/CD:**
+  * [ ] GitHub Actions
 * **Cloud Computing:**
-    * [x] Fundamentals (IaaS, PaaS, SaaS)
-    * [x] AWS
-    * [x] Azure
-    * [x] Google Cloud
+  * [x] Fundamentals (IaaS, PaaS, SaaS)
+  * [x] AWS
+  * [x] Azure
+  * [x] Google Cloud
 * **Messaging and Queues:**
-    * [ ] **Kafka:** For asynchronous communication and large-scale event processing.
+  * [ ] Kafka
 
 ### ✨ **Phase 8: Web Specializations & Ecosystems**
 
 * **UX/UI & Design:**
-    * [x] Figma
-    * [x] Responsive Design & Mobile First
-    * [ ] Design Systems
+  * [x] Figma
+  * [x] Responsive Design & Mobile First
+  * [ ] Design Systems
 * **Mobile Development:**
-    * [ ] **React Native:** Create mobile apps with React.
-* **CMS (Content Management System):**
-    * [ ] **WordPress**
+  * [ ] React Native
+* **CMS:**
+  * [ ] WordPress
 * **Data Science & Machine Learning:**
-    * [ ] Scikit-learn
-    * [ ] Keras
-    * [ ] TensorFlow
-    * [ ] Numpy
-    * [ ] Pandas
+  * [ ] Scikit-learn
+  * [ ] Keras
+  * [ ] TensorFlow
+  * [ ] Numpy
+  * [ ] Pandas
 
 ### 📚 **Phase 9: Alternative Back-End Stacks**
 
 * **Java:**
-    * [x] **Java** Language Fundamentals
-    * [ ] Spring Framework & Spring Boot
-    * [ ] JPA / Hibernate: ORM for data persistence
+  * [x] Java Fundamentals
+  * [ ] Spring / Spring Boot
+  * [ ] JPA / Hibernate
 * **Python:**
-    * [x] **Python** Language Fundamentals
-    * [ ] Django
-    * [ ] Flask
-    * [ ] FastAPI: framework for building APIs
+  * [x] Python Fundamentals
+  * [ ] Django
+  * [ ] Flask
+  * [ ] FastAPI
 * **PHP:**
-    * [ ] **PHP** Language Fundamentals
-    * [ ] Laravel
-* **Kotlin Ecosystem:**
-    * [ ] Kotlin Language Fundamentals
-    * [ ] Ktor / Spring Boot with Kotlin: For building modern, concise back-end services.
+  * [ ] PHP Fundamentals
+  * [ ] Laravel
+* **Kotlin:**
+  * [ ] Kotlin Fundamentals
+  * [ ] Ktor / Spring Boot with Kotlin
 
 ### 💻 **Phase 10: Foundational & Systems Programming**
 
-* [ ] **C:** Procedural language, foundational for operating systems and embedded systems.
-* [ ] **C++:**  High-performance language for games, complex systems, and competitive programming.
+* [ ] C
+* [ ] C++
 
 
 ## 🌿 Branching Strategy
