@@ -1,173 +1,93 @@
 # My Study Diary
 
-This repository is a personal study diary where I document my learning journey across various programming languages and technologies. It serves as an organized collection of my practice code, exercises, and small projects.
+Welcome to my personal coding laboratory. 
 
-<p margin-left=20px>
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
-<img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
+This repository serves as a **Study Diary**—a raw, unfiltered collection of my learning journey across various programming languages and technologies. Here, I document exercises, lecture notes, quick experiments, and algorithmic challenges.
+
+> **💡 Context is Key:** > This repository is a "treasure chest" of records. It prioritizes **volume of practice** over polished production code.
+>
+> Please note that **not all my skills are represented here**. Many technologies (like Bootstrap, advanced Git flows, and specific architectural patterns) were mastered directly within real-world projects or collaborative environments and may not have explicit entries in this diary.
+
+<p align="left">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
+ <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
 </p>
 
-## 📂 Repository Structure
+---
 
-The repository is organized into the following main directories:
+## 📂 Repository Structure ( The Archives)
 
-- **[`/java/`](./java/)**: Contains Java exercises, from basic syntax to more advanced concepts.
-- **[`/python/`](./python/)**: Includes Python scripts, challenges, and data science projects.
-- **[`/web/`](./web/)**: A collection of web development studies, including HTML, CSS, JavaScript, and frameworks like React.
-- **[`/extras/`](./extras/)**: Miscellaneous studies, such as SQL, Bash scripting, and Docker.
-- **[`/logs/`](./logs/)**: Study notes and logs in Markdown format.
+This vault is organized by technology stack, serving as a sandbox for experimentation:
 
-## 📈 Progress - Roadmap
+- **[`/java/`](./java/)**: Exploring OOP, syntax, and Java ecosystem fundamentals.
+- **[`/python/`](./python/)**: Scripts, automation attempts, data manipulation, and logic challenges.
+- **[`/web/`](./web/)**: The playground for the web trio (HTML/CSS/JS) and component experiments.
+- **[`/extras/`](./extras/)**: A mix of Shell Scripting, Docker configurations, SQL queries, and other tools.
+- **[`/logs/`](./logs/)**: Markdown-based notes, cheat sheets, and thoughts on concepts learned.
 
-This section tracks the overall progress in different areas.
+---
+
+## 🗺️ Learning Roadmap & Progress
+
+This checklist tracks concepts I have studied or am currently exploring. It acts as a syllabus for my self-taught journey.
 
 ### 🏛️ **Phase 1: Fundamentals**
-
-* [x] **Git & GitHub:** Code versioning fundamentals.  
-* [x] **Command Line (CLI):** Interaction with the operating system.  
-* [x] **HTTP/HTTPS:** The web protocol.  
-* [x] **JSON:** Data exchange format.  
-* [x] **Cloud:** Basic concepts of cloud computing.  
-* [x] **SQL:** Fundamentals of relational databases.  
+* [x] **Git & GitHub:** Code versioning fundamentals.
+* [x] **Command Line (CLI):** Interaction with the operating system.
+* [x] **HTTP/HTTPS:** The web protocol.
+* [x] **JSON:** Data exchange format.
+* [x] **Cloud:** Basic concepts of cloud computing.
+* [x] **SQL:** Fundamentals of relational databases.
 * **Package & Environment Management:**
-  * [x] npm / Yarn / pnpm (for JavaScript)
-  * [x] venv (for Python)
-  * [x] Maven / Gradle (for Java)
+  * [x] npm / Yarn / pnpm (JS)
+  * [x] venv (Python)
+  * [x] Maven / Gradle (Java)
 
 ### 🎨 **Phase 2: Front-End Development**
-
-* [x] **HTML:** The structure and skeleton of all web pages.  
-* [x] **CSS:** Styling, layout, and responsive design.  
-  * [x] Bootstrap
+* [x] **HTML:** Structure and semantics.
+* [x] **CSS:** Layouts and Responsive Design.
+  * [x] Bootstrap (Applied in external projects)
   * [x] Tailwind CSS
   * [ ] Sass
-  * [ ] Styled-components
-* [ ] **JavaScript:** The language that brings life and interactivity to the web.  
-  * [x] Fundamentals (Types, Variables, Functions, Loops, Conditionals)
+* [ ] **JavaScript:** Core logic and DOM interaction.
+  * [x] Fundamentals (Types, Loops, Conditionals)
   * [x] DOM Manipulation
-  * [ ] Asynchronicity (Promises, Async/Await)
-  * [ ] Modularization (ES Modules)
   * [x] Storage (LocalStorage)
   * [x] Error Handling
-  * [x] Accessibility Concepts
-* [ ] **TypeScript:** JavaScript with static typing superpowers for more robust projects.  
-* [ ] **React.js:** The library for building modern user interfaces.  
-  * [ ] React Router
-  * [ ] React Hook Form
-  * [ ] React Query
-  * **State Management:**
-    * [ ] Redux Toolkit
-    * [ ] Zustand
-* [ ] **Next.js:** The React framework for production, with SSR and SSG.  
-* **Build Tools:**
-  * [ ] Vite
-  * [ ] Webpack
+* [ ] **Modern Web Stack:**
+  * [ ] TypeScript
+  * [ ] React.js (Router, Hooks)
+  * [ ] Next.js
 
-### ⚙️ **Phase 3: Back-End Development (JavaScript Ecosystem)**
+### ⚙️ **Phase 3: Back-End Ecosystem**
+* [ ] **Node.js & Express:** Server-side JS.
+* [ ] **APIs:** RESTful design & GraphQL concepts.
+* [ ] **Auth:** JWT & Security basics.
 
-* [ ] **Node.js:** The environment that allows running JavaScript on the server.  
-* [ ] **Express.js:** Minimalist framework for creating APIs and web servers.  
-* [ ] **Nest.js:** Progressive framework for building efficient and scalable applications using TypeScript.  
-* **APIs and Protocols:**
-  * [ ] REST
-  * [ ] GraphQL
-    * [ ] Apollo
-* **Authentication & Security:**
-  * [ ] JSON Web Tokens (JWT)
-* **Real-time Communication:**
-  * [ ] WebSockets
-
-### 🗃️ **Phase 4: Databases**
-
-* **SQL (Relational Databases):**
+### 🗃️ **Phase 4: Data Persistence**
+* **Relational (SQL):**
   * [x] SQL Language
   * [x] MySQL
-  * [ ] PostgreSQL
-  * [ ] Sequelize
-  * [ ] Prisma
-* **NoSQL (Non-Relational Databases):**
+* **NoSQL:**
   * [x] MongoDB
-  * [ ] Mongoose
 
-### ✅ **Phase 5: Testing and Code Quality**
+### ✅ **Quality Assurance**
+* [ ] Jest / Cypress
+* [x] Prettier configuration
+* [x] SOLID Principles (Theoretical study)
 
-* [ ] Jest
-* [ ] Cypress
-* [ ] ESLint
-* [x] Prettier
-
-### 🏗️ **Phase 6: Architecture and Best Practices**
-
-* [x] SOLID
-* [ ] Web Security
-* [ ] Clean Architecture
-* [ ] Design Patterns
-* [ ] Domain-Driven Design (DDD)
-* [ ] Microservices Architecture
-
-### 🚀 **Phase 7: Infrastructure and Deployment (DevOps)**
-
-* **Containers:**
-  * [ ] Docker
-  * [ ] Kubernetes
-  * [ ] Container Registry
-* **CI/CD:**
-  * [ ] GitHub Actions
-* **Cloud Computing:**
-  * [x] Fundamentals (IaaS, PaaS, SaaS)
-  * [x] AWS
-  * [x] Azure
-  * [x] Google Cloud
-* **Messaging and Queues:**
-  * [ ] Kafka
-
-### ✨ **Phase 8: Web Specializations & Ecosystems**
-
-* **UX/UI & Design:**
-  * [x] Figma
-  * [x] Responsive Design & Mobile First
-  * [ ] Design Systems
-* **Mobile Development:**
-  * [ ] React Native
-* **CMS:**
-  * [ ] WordPress
-* **Data Science & Machine Learning:**
-  * [ ] Scikit-learn
-  * [ ] Keras
-  * [ ] TensorFlow
-  * [ ] Numpy
-  * [ ] Pandas
-
-### 📚 **Phase 9: Alternative Back-End Stacks**
-
-* **Java:**
-  * [x] Java Fundamentals
-  * [ ] Spring / Spring Boot
-  * [ ] JPA / Hibernate
-* **Python:**
-  * [x] Python Fundamentals
-  * [ ] Django
-  * [ ] Flask
-  * [ ] FastAPI
-* **PHP:**
-  * [ ] PHP Fundamentals
-  * [ ] Laravel
-* **Kotlin:**
-  * [ ] Kotlin Fundamentals
-  * [ ] Ktor / Spring Boot with Kotlin
-
-### 💻 **Phase 10: Foundational & Systems Programming**
-
-* [ ] C
-* [ ] C++
-
+---
 
 ## 🌿 Branching Strategy
 
-- **`main`**: The clean, organized, and default branch.
-- **`experiments`**: A branch for unpolished code, drafts, and temporary tests.
-- **`projects/<name>`**: Feature branches for larger, standalone projects.
-- **`docs`**: An optional branch for documentation or GitHub Pages.
+Since this is a study repo, the flow is simplified:
 
-Feel free to explore the repository and see what I'm currently learning!
+- **`main`**: The consolidated library of knowledge.
+- **`experiments`**: Where I break things to see how they work.
+
+---
+
+<p align="center">
+  <i>"Consistência é a chave. Este repositório é a prova do esforço diário."</i>
+</p>
