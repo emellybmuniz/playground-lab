@@ -53,15 +53,18 @@ public class Main {
     }
 }
 /*
-breakdown:
-1.  **Calendar Instance:** We obtain an instance of the `Calendar` class using `Calendar.getInstance()`.
-2.  **Formatter:** `SimpleDateFormat` is used to format and parse dates.
-3.  **getTime():** Converts the `Calendar` object to a `Date` object.
-4.  **Compatibility:** Shows how to create a `Calendar` object from a `Date` object using `calendar.setTime(date)`.
-5.  **.after, .before, .equals:** Demonstrates how to compare `Date` objects.
-6.  **.set():** Sets specific date and time fields in a `Calendar` object.
-7.  **.get():** Retrieves specific date and time fields from a `Calendar` object.
-8.  **.parse():** Parses a date string to create a `Date` object.
+ * breakdown:
+ * 1. **Calendar Instance:** We obtain an instance of the `Calendar` class using
+ * `Calendar.getInstance()`.
+ * 2. **Formatter:** `SimpleDateFormat` is used to format and parse dates.
+ * 3. **getTime():** Converts the `Calendar` object to a `Date` object.
+ * 4. **Compatibility:** Shows how to create a `Calendar` object from a `Date`
+ * object using `calendar.setTime(date)`.
+ * 5. **.after, .before, .equals:** Demonstrates how to compare `Date` objects.
+ * 6. **.set():** Sets specific date and time fields in a `Calendar` object.
+ * 7. **.get():** Retrieves specific date and time fields from a `Calendar`
+ * object.
+ * 8. **.parse():** Parses a date string to create a `Date` object.
  */
 
 
