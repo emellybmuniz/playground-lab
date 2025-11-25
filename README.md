@@ -39,8 +39,8 @@ This section tracks the overall progress in different areas.
 
 * [x] **HTML:** The structure and skeleton of all web pages.  
 * [x] **CSS:** Styling, layout, and responsive design.  
-  * [ ] Bootstrap
-  * [ ] Tailwind CSS
+  * [x] Bootstrap
+  * [x] Tailwind CSS
   * [ ] Sass
   * [ ] Styled-components
 * [ ] **JavaScript:** The language that brings life and interactivity to the web.  
