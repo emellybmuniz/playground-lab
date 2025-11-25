@@ -1,5 +1,11 @@
 # My Study Diary
 
+<p align="left">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
+ <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
+</p>
+
 Welcome to my personal coding laboratory. 
 
 This repository serves as a **Study Diary**—a raw, unfiltered collection of my learning journey across various programming languages and technologies. Here, I document exercises, lecture notes, quick experiments, and algorithmic challenges.
@@ -8,11 +14,7 @@ This repository serves as a **Study Diary**—a raw, unfiltered collection of my
 >
 > Please note that **not all my skills are represented here**. Many technologies (like Bootstrap, advanced Git flows, and specific architectural patterns) were mastered directly within real-world projects or collaborative environments and may not have explicit entries in this diary.
 
-<p align="left">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
- <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
-</p>
+
 
 ---
 
