@@ -1,95 +1,78 @@
-# My Study Diary
+# Estudos e experimentação 👩‍💻
 
 <p align="left">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
- <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
 </p>
 
-Welcome to my personal coding laboratory. 
+---
 
-This repository serves as a **Study Diary**—a raw, unfiltered collection of my learning journey across various programming languages and technologies. Here, I document exercises, lecture notes, quick experiments, and algorithmic challenges.
+## 🧪 Sobre este repositório
 
-> **💡 Context is Key:** > This repository is a "treasure chest" of records. It prioritizes **volume of practice** over polished production code.
->
-> Please note that **not all my skills are represented here**. Many technologies (like Bootstrap, advanced Git flows, and specific architectural patterns) were mastered directly within real-world projects or collaborative environments and may not have explicit entries in this diary.
-
-
+Este repositório é o meu laboratório de código: aqui vivem rascunhos, experimentos rápidos, anotações e pequenos testes em diferentes linguagens e ferramentas.  
 
 ---
 
-## 📂 Repository Structure ( The Archives)
+## 📂 Estrutura do playground-lab
 
-This vault is organized by technology stack, serving as a sandbox for experimentation:
+A raiz do projeto é organizada por linguagem e por utilidades de apoio:
 
-- **[`/java/`](./java/)**: Exploring OOP, syntax, and Java ecosystem fundamentals.
-- **[`/python/`](./python/)**: Scripts, automation attempts, data manipulation, and logic challenges.
-- **[`/web/`](./web/)**: The playground for the web trio (HTML/CSS/JS) and component experiments.
-- **[`/extras/`](./extras/)**: A mix of Shell Scripting, Docker configurations, SQL queries, and other tools.
-- **[`/logs/`](./logs/)**: Markdown-based notes, cheat sheets, and thoughts on concepts learned.
-
----
-
-## 🗺️ Learning Roadmap & Progress
-
-This checklist tracks concepts I have studied or am currently exploring. It acts as a syllabus for my self-taught journey.
-
-### 🏛️ **Phase 1: Fundamentals**
-* [x] **Git & GitHub:** Code versioning fundamentals.
-* [x] **Command Line (CLI):** Interaction with the operating system.
-* [x] **HTTP/HTTPS:** The web protocol.
-* [x] **JSON:** Data exchange format.
-* [x] **Cloud:** Basic concepts of cloud computing.
-* [x] **SQL:** Fundamentals of relational databases.
-* **Package & Environment Management:**
-  * [x] npm / Yarn / pnpm (JS)
-  * [x] venv (Python)
-  * [x] Maven / Gradle (Java)
-
-### 🎨 **Phase 2: Front-End Development**
-* [x] **HTML:** Structure and semantics.
-* [x] **CSS:** Layouts and Responsive Design.
-  * [x] Bootstrap (Applied in external projects)
-  * [x] Tailwind CSS
-  * [ ] Sass
-* [ ] **JavaScript:** Core logic and DOM interaction.
-  * [x] Fundamentals (Types, Loops, Conditionals)
-  * [x] DOM Manipulation
-  * [x] Storage (LocalStorage)
-  * [x] Error Handling
-* [ ] **Modern Web Stack:**
-  * [ ] TypeScript
-  * [ ] React.js (Router, Hooks)
-  * [ ] Next.js
-
-### ⚙️ **Phase 3: Back-End Ecosystem**
-* [ ] **Node.js & Express:** Server-side JS.
-* [ ] **APIs:** RESTful design & GraphQL concepts.
-* [ ] **Auth:** JWT & Security basics.
-
-### 🗃️ **Phase 4: Data Persistence**
-* **Relational (SQL):**
-  * [x] SQL Language
-  * [x] MySQL
-* **NoSQL:**
-  * [x] MongoDB
-
-### ✅ **Quality Assurance**
-* [ ] Jest / Cypress
-* [x] Prettier configuration
-* [x] SOLID Principles (Theoretical study)
+| # | área      | descrição rápida                                                     |
+|---|-----------|---------------------------------------------------------------------|
+| 1 | `java/`   | Estudos de Java, Gradle, OOP e exercícios da linguagem.            |
+| 2 | `python/` | Scripts, exercícios de lógica e experimentos com Python.           |
+| 3 | `web/`    | HTML, CSS, JavaScript e experimentos relacionados a front-end.     |
+| 4 | `extras/` | Scripts, configurações e utilidades diversas (CLI, Docker etc.).   |
 
 ---
 
-## 🌿 Branching Strategy
+## 🌱 Como este lab evolui
 
-Since this is a study repo, the flow is simplified:
+- Tudo começa aqui no playground-lab, em forma de rascunho ou experimento.  
+- Quando um conjunto de estudos ganha corpo (por exemplo, uma coleção de desafios em Java ou um mini‑projeto de CLI), ele pode ser “promovido” para um repositório próprio da linguagem (ex: Python Playground), mantendo este lab como ponto de partida e registro da evolução.
 
-- **`main`**: The consolidated library of knowledge.
-- **`experiments`**: Where I break things to see how they work.
+---
+
+
+# Studies and experimentation 👩‍💻
+
+<p align="left">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
+</p>
+
+---
+
+## 🧪 About this repository
+
+This repository is my code lab: it holds drafts, quick experiments, notes, and small tests in different languages and tools.  
+
+---
+
+## 📂 Playground-lab structure
+
+The root of the project is organized by language and supporting utilities:
+
+| # | area      | short description                                                 |
+|---|-----------|-------------------------------------------------------------------|
+| 1 | `java/`   | Java studies, Gradle, OOP and language exercises.                 |
+| 2 | `python/` | Scripts, logic exercises and Python experiments.                  |
+| 3 | `web/`    | HTML, CSS, JavaScript and front-end related experiments.          |
+| 4 | `extras/` | Scripts, configs and various utilities (CLI, Docker, etc.).       |
+
+> Language-specific playgrounds (such as `java-playground` or `python-playground`) will live in separate repositories when they are focused on CLI challenges and mini‑projects, to keep everything organized.  
+
+---
+
+## 🌱 How this lab evolves
+
+- Everything starts here in the playground-lab, as a draft or experiment.  
+- When a study track grows (for example, a collection of Java challenges or a CLI mini‑project), it can be “promoted” to its own language-specific repository, keeping this lab as the starting point and evolution log.  
 
 ---
 
 <p align="center">
-  <i>"Consistência é a chave. Este repositório é a prova do esforço diário."</i>
+  <i>"Consistency is the key. This playground-lab is proof of constant effort."</i>
 </p>
