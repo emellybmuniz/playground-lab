@@ -62,8 +62,6 @@ The root of the project is organized by language and supporting utilities:
 | 3 | `web/`    | HTML, CSS, JavaScript and front-end related experiments.          |
 | 4 | `extras/` | Scripts, configs and various utilities (CLI, Docker, etc.).       |
 
-> Language-specific playgrounds (such as `java-playground` or `python-playground`) will live in separate repositories when they are focused on CLI challenges and mini‑projects, to keep everything organized.  
-
 ---
 
 ## 🌱 How this lab evolves
