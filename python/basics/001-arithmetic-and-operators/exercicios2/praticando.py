@@ -1,1 +1,0 @@
-print('O Resultado da soma de 2 + 3 é: ', 2+3) 
