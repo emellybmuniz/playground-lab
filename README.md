@@ -80,9 +80,9 @@ Explore o código-fonte original onde os experimentos acontecem antes de serem s
 
 ## 🧪 About this repository
 
-This repository acts as my **Central Knowledge Hub**. It automatically aggregates exercises, notes, and practical labs developed across my specific learning repositories (such as `java-playground`, `python-playground`, etc.).
+This repository acts as a **central hub** for my studies. It automatically aggregates exercises, notes, and tests (“labs”) distributed across my learning repositories (such as `java-playground`, `python-playground`, etc.).
 
-The goal is to have a unified and organized view of my entire technical journey, regardless of the language used.
+The goal is to ensure a structured and unified organization of all the knowledge built, regardless of technology. More than just a record, it serves as **reference material**, bringing together notes that can serve as a basis or inspiration for your learning.
 
 ---
 
