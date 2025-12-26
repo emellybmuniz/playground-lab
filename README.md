@@ -141,8 +141,8 @@ Explore the original source code where experiments happen before synchronization
     </td>
   </tr>
 </table>
----
 
+---
 
 <p align="center">
   <i>"Consistency is the key. This playground-lab is proof of constant effort."</i>
