@@ -40,7 +40,7 @@ A dinâmica deste laboratório segue um fluxo automatizado de integração cont�
 
 ---
 
-## 🔌 Conecte-se aos Laboratórios
+## 🔌 Conecte-se aos Playgrounds
 
 Explore o código-fonte original onde os experimentos acontecem antes de serem sincronizados:
 
@@ -109,7 +109,7 @@ The dynamics of this lab follow an automated continuous integration flow:
 
 ---
 
-## 🔌 Connect to Source Labs
+## 🔌 Connect to Playground 
 
 Explore the original source code where experiments happen before synchronization:
 
