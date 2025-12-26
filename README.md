@@ -3,6 +3,7 @@
 <p align="left">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/emellybmuniz/studies?style=for-the-badge&label=Size&color=blue">
   <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
 </p>
 
@@ -10,67 +11,141 @@
 
 ## 🧪 Sobre este repositório
 
-Este repositório é o meu laboratório de código: aqui vivem rascunhos, experimentos rápidos, anotações e pequenos testes em diferentes linguagens e ferramentas.  
+Este repositório funciona como um **hub centralizador** dos meus estudos. Ele agrega automaticamente os exercícios, anotações e testes ("labs") distribuídos em meus repositórios de aprendizado (como `java-playground`, `python-playground`, etc.).
+
+O objetivo é garantir uma organização estruturada e unificada de todo o conhecimento construído, independentemente da tecnologia. Mais do que um registro, ele serve como **material de consulta**, reunindo anotações que podem servir de base ou inspiração para sua aprendizagem.
 
 ---
 
 ## 📂 Estrutura do playground-lab
 
-A raiz do projeto é organizada por linguagem e por utilidades de apoio:
+A raiz do projeto é organizada por tecnologias, recebendo atualizações constantes via CI/CD:
 
-| # | área      | descrição rápida                                                     |
+| # | área      | descrição rápida                                                    |
 |---|-----------|---------------------------------------------------------------------|
-| 1 | `java/`   | Estudos de Java, Gradle, OOP e exercícios da linguagem.            |
-| 2 | `python/` | Scripts, exercícios de lógica e experimentos com Python.           |
-| 3 | `web/`    | HTML, CSS, JavaScript e experimentos relacionados a front-end.     |
-| 4 | `extras/` | Scripts, configurações e utilidades diversas (CLI, Docker etc.).   |
+| 1 | `java/`   | Sincronizado do `java-playground`: POO, Streams e desafios.        |
+| 2 | `python/` | Sincronizado do `python-playground`: Scripts e lógica de dados.    |
+| 3 | `web/`    | HTML, CSS, JS e experimentos de interface.                         |
+| 4 | `extras/` | Utilitários, configurações de ambiente e ferramentas diversas.     |
 
 ---
 
-## 🌱 Como este lab evolui
+## 🌱 O Fluxo de Evolução 
 
-- Tudo começa aqui no playground-lab, em forma de rascunho ou experimento.  
-- Quando um conjunto de estudos ganha corpo (por exemplo, uma coleção de desafios em Java ou um mini‑projeto de CLI), ele pode ser “promovido” para um repositório próprio da linguagem (ex: Python Playground), mantendo este lab como ponto de partida e registro da evolução.
+A dinâmica deste laboratório segue um fluxo automatizado de integração contínua:
+
+1.  **Origem Descentralizada:** O estudo prático e a "mão na massa" acontecem nos repositórios dedicados (ex: `java-playground`), onde foco nas particularidades de cada linguagem.
+2.  **Sincronização Automatizada:** Sempre que um novo conceito é consolidado na pasta `lab` de um repositório de origem, uma automação (GitHub Actions) o replica para este repositório central.
+3.  **Repositório Mestre:** O `playground-lab` torna-se, assim, a "Single Source of Truth" (Fonte Única da Verdade) do meu progresso técnico, facilitando consultas futuras e revisão de conceitos.
 
 ---
 
+## 🔌 Conecte-se aos Laboratórios
+
+Explore o código-fonte original onde os experimentos acontecem antes de serem sincronizados:
+
+<table align="justify">
+  <tr>
+    <td align="center" width="200px">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50px" alt="Java logo"/><br>
+      <b>Java Playground</b><br>
+      <sub>POO, Streams & Core</sub><br><br>
+      <a href="https://github.com/emellybmuniz/java-playground">
+        <img src="https://img.shields.io/badge/Ver_Código-000?style=flat-square&logo=github&logoColor=white" alt="Repo Java">
+      </a>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" alt="Python logo"/><br>
+      <b>Python Playground</b><br>
+      <sub>Scripts, Dados & Lógica</sub><br><br>
+      <a href="https://github.com/emellybmuniz/python-playground">
+        <img src="https://img.shields.io/badge/Ver_Código-000?style=flat-square&logo=github&logoColor=white" alt="Repo Python">
+      </a>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px" alt="JS logo"/><br>
+      <b>Javascript Playground</b><br>
+      <sub>Front-end & UI/UX</sub><br><br>
+      <a href="https://github.com/emellybmuniz/web-playground">
+        <img src="https://img.shields.io/badge/Ver_Código-000?style=flat-square&logo=github&logoColor=white" alt="Repo Web">
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
 
 # Studies and experimentation 👩‍💻
 
-<p align="left">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emellybmuniz/studies?style=for-the-badge&color=7159c1">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emellybmuniz/studies?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/emellybmuniz/studies?style=for-the-badge&color=EE5FB7">
-</p>
-
----
 
 ## 🧪 About this repository
 
-This repository is my code lab: it holds drafts, quick experiments, notes, and small tests in different languages and tools.  
+This repository acts as my **Central Knowledge Hub**. It automatically aggregates exercises, notes, and practical labs developed across my specific learning repositories (such as `java-playground`, `python-playground`, etc.).
+
+The goal is to have a unified and organized view of my entire technical journey, regardless of the language used.
 
 ---
 
 ## 📂 Playground-lab structure
 
-The root of the project is organized by language and supporting utilities:
+The project root is organized by technology, receiving constant updates via CI/CD:
 
-| # | area      | short description                                                 |
+| # | area      | short description                                                  |
 |---|-----------|-------------------------------------------------------------------|
-| 1 | `java/`   | Java studies, Gradle, OOP and language exercises.                 |
-| 2 | `python/` | Scripts, logic exercises and Python experiments.                  |
-| 3 | `web/`    | HTML, CSS, JavaScript and front-end related experiments.          |
-| 4 | `extras/` | Scripts, configs and various utilities (CLI, Docker, etc.).       |
+| 1 | `java/`   | Synced from `java-playground`: OOP, Streams, and challenges.      |
+| 2 | `python/` | Synced from `python-playground`: Scripts and data logic.          |
+| 3 | `web/`    | HTML, CSS, JS, and UI experiments.                                |
+| 4 | `extras/` | Utilities, environment configs, and miscellaneous tools.          |
 
 ---
 
-## 🌱 How this lab evolves
+## 🌱 The Evolution Flow 
 
-- Everything starts here in the playground-lab, as a draft or experiment.  
-- When a study track grows (for example, a collection of Java challenges or a CLI mini‑project), it can be “promoted” to its own language-specific repository, keeping this lab as the starting point and evolution log.  
+The dynamics of this lab follow an automated continuous integration flow:
+
+1.  **Decentralized Origin:** Practical study and coding happen in dedicated repositories (e.g., `java-playground`), allowing focus on language-specific nuances.
+2.  **Automated Synchronization:** Whenever a new concept is consolidated in the `lab` folder of a source repo, an automation (GitHub Actions) replicates it to this central repository.
+3.  **Master Repository:** Thus, `playground-lab` becomes the "Single Source of Truth" for my technical progress, facilitating future reference and concept review.
 
 ---
+
+## 🔌 Connect to Source Labs
+
+Explore the original source code where experiments happen before synchronization:
+
+<table align="justify">
+  <tr>
+    <td align="center" width="200px">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50px" alt="Java logo"/><br>
+      <b>Java Playground</b><br>
+      <sub>OOP, Streams & Core</sub><br><br>
+      <a href="https://github.com/emellybmuniz/java-playground">
+        <img src="https://img.shields.io/badge/View_Source-000?style=flat-square&logo=github&logoColor=white" alt="Repo Java">
+      </a>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" alt="Python logo"/><br>
+      <b>Python Playground</b><br>
+      <sub>Scripts, Data & Logic</sub><br><br>
+      <a href="https://github.com/emellybmuniz/python-playground">
+        <img src="https://img.shields.io/badge/View_Source-000?style=flat-square&logo=github&logoColor=white" alt="Repo Python">
+      </a>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px" alt="JS logo"/><br>
+      <b>Javascript Playground</b><br>
+      <sub>Front-end & UI/UX</sub><br><br>
+      <a href="https://github.com/emellybmuniz/web-playground">
+        <img src="https://img.shields.io/badge/View_Source-000?style=flat-square&logo=github&logoColor=white" alt="Repo Web">
+      </a>
+    </td>
+  </tr>
+</table>
+---
+
 
 <p align="center">
   <i>"Consistency is the key. This playground-lab is proof of constant effort."</i>
 </p>
+
+
